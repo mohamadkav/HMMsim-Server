@@ -1,0 +1,11 @@
+-memory_organization old_hybrid
+-debug_hybrid_memory 0
+-dram_rows_per_bank 1024
+-dram_banks_per_rank 1
+-dram_ranks 8
+-dram_queue_size 8
+-dram_blocks_per_row 4
+-instr_limit 10
+-dram_fractions 1
+-L2_size 2
+-migration_policy double_clock

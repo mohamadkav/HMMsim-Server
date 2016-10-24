@@ -1,0 +1,5 @@
+-memory_organization hybrid
+-migration_policy multi_queue
+-L2_size 2
+#-fixed_dram_migration_cost true
+#-fixed_pcm_migration_cost true

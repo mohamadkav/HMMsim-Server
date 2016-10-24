@@ -1,0 +1,4771 @@
+Between timestamps 0 and 10000000 executed 1012903 events (1.69751e+06 events per second)
+#Final timestamp
+final_timestamp 10000000
+
+#Total number of events
+total_events 1012903
+
+#Execution time in seconds
+execution_time 0.60
+
+#Event rate in events per second
+event_rate 1696973.30
+
+#Number of cycles DRAM stalls critical requests
+dram_critical_stall_time 0
+
+#Number of cycles DRAM stalls on read requests
+dram_read_stall_time 0
+
+#Number of cycles DRAM stalls on write requests
+dram_write_stall_time 0
+
+#Number of cycles DRAM queue is stalled
+dram_queue_stall_time 0
+
+#Number of DRAM read requests
+dram_read_requests 7637
+
+#Number of DRAM write requests
+dram_write_requests 0
+
+#Number of cycles DRAM read requests wait in the queue
+dram_read_queue_time 18446744073328314465
+
+#Number of cycles DRAM write requests wait in the queue
+dram_write_queue_time 0
+
+#Total number of cycles of DRAM read requests
+dram_read_total_time 633561
+
+#Total number of cycles of DRAM write requests
+dram_write_total_time 0
+
+#Number of DRAM row buffer hits
+dram_row_buffer_hits 6897
+
+#Number of DRAM row buffer misses
+dram_row_buffer_misses 740
+
+#Number of DRAM opens
+dram_num_opens 740
+
+#Number of DRAM accesses
+dram_num_accesses 7637
+
+#Number of DRAM closes
+dram_num_closes 676
+
+#Number of DRAM read after read (RAR) hazards
+dram_num_read_after_read 0
+
+#Number of DRAM read after write (RAW) hazards
+dram_num_read_after_write 0
+
+#Number of DRAM write after read (WAR) hazards
+dram_num_write_after_read 0
+
+#Number of DRAM write after write (WAW) hazards
+dram_num_write_after_write 0
+
+#Number of cycles DRAM requests wait for lower priority requests
+dram_wait_lower_priority_time 0
+
+#Number of cycles DRAM requests wait for same priority requests
+dram_wait_same_priority_time 2350
+
+#Number of cycles DRAM requests wait for higher priority requests
+dram_wait_higher_priority_time 0
+
+#Total number of DRAM requests
+dram_requests 7637
+
+#Average number of cycles DRAM queue is stalled
+dram_avg_queue_stall_time 0.00
+
+#Total number of cycles DRAM stalls on requests
+dram_total_stall_time 0
+
+#Total number of cycles DRAM requests wait in the queue
+dram_total_queue_time 18446744073328314465
+
+#Number of cycles DRAM spends servicing read requests
+dram_read_service_time 381870712
+
+#Number of cycles DRAM spends servicing write requests
+dram_write_service_time 0
+
+#Total number of cycles DRAM spends servicing requests
+dram_total_service_time 381870712
+
+#Total number of cycles of DRAM requests
+dram_total_time 633561
+
+#Average number of cycles DRAM read requests spend in the queue
+dram_avg_read_queue_time 2415443770240711.50
+
+#Average number of cycles DRAM write requests spend in the queue
+dram_avg_write_queue_time -nan
+
+#Average number of cycles DRAM requests spend in the queue
+dram_avg_queue_time 2415443770240711.50
+
+#Average number of cycles DRAM spends servicing read requests
+dram_avg_read_service_time 50002.71
+
+#Average number of cycles DRAM spends servicing write requests
+dram_avg_write_service_time -nan
+
+#Average number of cycles DRAM spends servicing requests
+dram_avg_service_time 50002.71
+
+#Average number of cycles of DRAM read requests
+dram_avg_read_time 82.96
+
+#Average number of cycles of DRAM write requests
+dram_avg_write_time -nan
+
+#Average number of cycles of DRAM requests
+dram_avg_time 82.96
+
+#Number of DRAM row buffer misses
+dram_row_buffer_accesses 7637
+
+#Number of cycles requests for DRAM bank 0 spend in the queue
+dram_bank_0_queue_time 18446744073707872095
+
+#Number of cycles DRAM bank 0 spends opening rows for requests
+dram_bank_0_open_time 400
+
+#Number of cycles DRAM bank 0 spends accessing rows for requests
+dram_bank_0_access_time 0
+
+#Number of cycles DRAM bank 0 spends closing rows for requests
+dram_bank_0_close_time 350
+
+#Number of DRAM bank 0 read requests
+dram_bank_0_read_requests 136
+
+#Number of DRAM bank 0 write requests
+dram_bank_0_write_requests 0
+
+#Number of cyclesDRAM bank 0 read requests wait in the queue
+dram_bank_0_read_queue_time 18446744073707872095
+
+#Number of cyclesDRAM bank 0 write requests wait in the queue
+dram_bank_0_write_queue_time 0
+
+#Total number of cycles of DRAM bank 0 read requests
+dram_bank_0_read_total_time 11235
+
+#Total number of cycles of DRAM bank 0 write requests
+dram_bank_0_write_total_time 0
+
+#Number of DRAM bank 0 row buffer hits
+dram_bank_0_row_buffer_hits 128
+
+#Number of DRAM bank 0 row buffer misses
+dram_bank_0_row_buffer_misses 8
+
+#Number of DRAM bank 0 opens
+dram_bank_0_num_opens 8
+
+#Number of DRAM bank 0 accesses
+dram_bank_0_num_accesses 136
+
+#Number of DRAM bank 0 closes
+dram_bank_0_num_closes 7
+
+#Number of DRAM bank 0 read after read (RAR) hazards
+dram_bank_0_num_read_after_read 0
+
+#Number of DRAM bank 0 read after write (RAW) hazards
+dram_bank_0_num_read_after_write 0
+
+#Number of DRAM bank 0 write after read (WAR) hazards
+dram_bank_0_num_write_after_read 0
+
+#Number of DRAM bank 0 write after write (WAW) hazards
+dram_bank_0_num_write_after_write 0
+
+#Number of cycles DRAM bank 0 requests wait for lower priority requests
+dram_bank_0_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 0 requests wait for same priority requests
+dram_bank_0_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 0 requests wait for higher priority requests
+dram_bank_0_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 1 spend in the queue
+dram_bank_1_queue_time 18446744073709422415
+
+#Number of cycles DRAM bank 1 spends opening rows for requests
+dram_bank_1_open_time 700
+
+#Number of cycles DRAM bank 1 spends accessing rows for requests
+dram_bank_1_access_time 0
+
+#Number of cycles DRAM bank 1 spends closing rows for requests
+dram_bank_1_close_time 650
+
+#Number of DRAM bank 1 read requests
+dram_bank_1_read_requests 81
+
+#Number of DRAM bank 1 write requests
+dram_bank_1_write_requests 0
+
+#Number of cyclesDRAM bank 1 read requests wait in the queue
+dram_bank_1_read_queue_time 18446744073709422415
+
+#Number of cyclesDRAM bank 1 write requests wait in the queue
+dram_bank_1_write_queue_time 0
+
+#Total number of cycles of DRAM bank 1 read requests
+dram_bank_1_read_total_time 7264
+
+#Total number of cycles of DRAM bank 1 write requests
+dram_bank_1_write_total_time 0
+
+#Number of DRAM bank 1 row buffer hits
+dram_bank_1_row_buffer_hits 67
+
+#Number of DRAM bank 1 row buffer misses
+dram_bank_1_row_buffer_misses 14
+
+#Number of DRAM bank 1 opens
+dram_bank_1_num_opens 14
+
+#Number of DRAM bank 1 accesses
+dram_bank_1_num_accesses 81
+
+#Number of DRAM bank 1 closes
+dram_bank_1_num_closes 13
+
+#Number of DRAM bank 1 read after read (RAR) hazards
+dram_bank_1_num_read_after_read 0
+
+#Number of DRAM bank 1 read after write (RAW) hazards
+dram_bank_1_num_read_after_write 0
+
+#Number of DRAM bank 1 write after read (WAR) hazards
+dram_bank_1_num_write_after_read 0
+
+#Number of DRAM bank 1 write after write (WAW) hazards
+dram_bank_1_num_write_after_write 0
+
+#Number of cycles DRAM bank 1 requests wait for lower priority requests
+dram_bank_1_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 1 requests wait for same priority requests
+dram_bank_1_wait_same_priority_time 264
+
+#Number of cycles DRAM bank 1 requests wait for higher priority requests
+dram_bank_1_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 2 spend in the queue
+dram_bank_2_queue_time 18446744073708370760
+
+#Number of cycles DRAM bank 2 spends opening rows for requests
+dram_bank_2_open_time 500
+
+#Number of cycles DRAM bank 2 spends accessing rows for requests
+dram_bank_2_access_time 0
+
+#Number of cycles DRAM bank 2 spends closing rows for requests
+dram_bank_2_close_time 450
+
+#Number of DRAM bank 2 read requests
+dram_bank_2_read_requests 78
+
+#Number of DRAM bank 2 write requests
+dram_bank_2_write_requests 0
+
+#Number of cyclesDRAM bank 2 read requests wait in the queue
+dram_bank_2_read_queue_time 18446744073708370760
+
+#Number of cyclesDRAM bank 2 write requests wait in the queue
+dram_bank_2_write_queue_time 0
+
+#Total number of cycles of DRAM bank 2 read requests
+dram_bank_2_read_total_time 6820
+
+#Total number of cycles of DRAM bank 2 write requests
+dram_bank_2_write_total_time 0
+
+#Number of DRAM bank 2 row buffer hits
+dram_bank_2_row_buffer_hits 68
+
+#Number of DRAM bank 2 row buffer misses
+dram_bank_2_row_buffer_misses 10
+
+#Number of DRAM bank 2 opens
+dram_bank_2_num_opens 10
+
+#Number of DRAM bank 2 accesses
+dram_bank_2_num_accesses 78
+
+#Number of DRAM bank 2 closes
+dram_bank_2_num_closes 9
+
+#Number of DRAM bank 2 read after read (RAR) hazards
+dram_bank_2_num_read_after_read 0
+
+#Number of DRAM bank 2 read after write (RAW) hazards
+dram_bank_2_num_read_after_write 0
+
+#Number of DRAM bank 2 write after read (WAR) hazards
+dram_bank_2_num_write_after_read 0
+
+#Number of DRAM bank 2 write after write (WAW) hazards
+dram_bank_2_num_write_after_write 0
+
+#Number of cycles DRAM bank 2 requests wait for lower priority requests
+dram_bank_2_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 2 requests wait for same priority requests
+dram_bank_2_wait_same_priority_time 115
+
+#Number of cycles DRAM bank 2 requests wait for higher priority requests
+dram_bank_2_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 3 spend in the queue
+dram_bank_3_queue_time 18446744073707022844
+
+#Number of cycles DRAM bank 3 spends opening rows for requests
+dram_bank_3_open_time 350
+
+#Number of cycles DRAM bank 3 spends accessing rows for requests
+dram_bank_3_access_time 0
+
+#Number of cycles DRAM bank 3 spends closing rows for requests
+dram_bank_3_close_time 300
+
+#Number of DRAM bank 3 read requests
+dram_bank_3_read_requests 52
+
+#Number of DRAM bank 3 write requests
+dram_bank_3_write_requests 0
+
+#Number of cyclesDRAM bank 3 read requests wait in the queue
+dram_bank_3_read_queue_time 18446744073707022844
+
+#Number of cyclesDRAM bank 3 write requests wait in the queue
+dram_bank_3_write_queue_time 0
+
+#Total number of cycles of DRAM bank 3 read requests
+dram_bank_3_read_total_time 4753
+
+#Total number of cycles of DRAM bank 3 write requests
+dram_bank_3_write_total_time 0
+
+#Number of DRAM bank 3 row buffer hits
+dram_bank_3_row_buffer_hits 45
+
+#Number of DRAM bank 3 row buffer misses
+dram_bank_3_row_buffer_misses 7
+
+#Number of DRAM bank 3 opens
+dram_bank_3_num_opens 7
+
+#Number of DRAM bank 3 accesses
+dram_bank_3_num_accesses 52
+
+#Number of DRAM bank 3 closes
+dram_bank_3_num_closes 6
+
+#Number of DRAM bank 3 read after read (RAR) hazards
+dram_bank_3_num_read_after_read 0
+
+#Number of DRAM bank 3 read after write (RAW) hazards
+dram_bank_3_num_read_after_write 0
+
+#Number of DRAM bank 3 write after read (WAR) hazards
+dram_bank_3_num_write_after_read 0
+
+#Number of DRAM bank 3 write after write (WAW) hazards
+dram_bank_3_num_write_after_write 0
+
+#Number of cycles DRAM bank 3 requests wait for lower priority requests
+dram_bank_3_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 3 requests wait for same priority requests
+dram_bank_3_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 3 requests wait for higher priority requests
+dram_bank_3_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 4 spend in the queue
+dram_bank_4_queue_time 18446744073708061343
+
+#Number of cycles DRAM bank 4 spends opening rows for requests
+dram_bank_4_open_time 400
+
+#Number of cycles DRAM bank 4 spends accessing rows for requests
+dram_bank_4_access_time 0
+
+#Number of cycles DRAM bank 4 spends closing rows for requests
+dram_bank_4_close_time 350
+
+#Number of DRAM bank 4 read requests
+dram_bank_4_read_requests 116
+
+#Number of DRAM bank 4 write requests
+dram_bank_4_write_requests 0
+
+#Number of cyclesDRAM bank 4 read requests wait in the queue
+dram_bank_4_read_queue_time 18446744073708061343
+
+#Number of cyclesDRAM bank 4 write requests wait in the queue
+dram_bank_4_write_queue_time 0
+
+#Total number of cycles of DRAM bank 4 read requests
+dram_bank_4_read_total_time 9295
+
+#Total number of cycles of DRAM bank 4 write requests
+dram_bank_4_write_total_time 0
+
+#Number of DRAM bank 4 row buffer hits
+dram_bank_4_row_buffer_hits 108
+
+#Number of DRAM bank 4 row buffer misses
+dram_bank_4_row_buffer_misses 8
+
+#Number of DRAM bank 4 opens
+dram_bank_4_num_opens 8
+
+#Number of DRAM bank 4 accesses
+dram_bank_4_num_accesses 116
+
+#Number of DRAM bank 4 closes
+dram_bank_4_num_closes 7
+
+#Number of DRAM bank 4 read after read (RAR) hazards
+dram_bank_4_num_read_after_read 0
+
+#Number of DRAM bank 4 read after write (RAW) hazards
+dram_bank_4_num_read_after_write 0
+
+#Number of DRAM bank 4 write after read (WAR) hazards
+dram_bank_4_num_write_after_read 0
+
+#Number of DRAM bank 4 write after write (WAW) hazards
+dram_bank_4_num_write_after_write 0
+
+#Number of cycles DRAM bank 4 requests wait for lower priority requests
+dram_bank_4_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 4 requests wait for same priority requests
+dram_bank_4_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 4 requests wait for higher priority requests
+dram_bank_4_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 5 spend in the queue
+dram_bank_5_queue_time 18446744073707944597
+
+#Number of cycles DRAM bank 5 spends opening rows for requests
+dram_bank_5_open_time 250
+
+#Number of cycles DRAM bank 5 spends accessing rows for requests
+dram_bank_5_access_time 0
+
+#Number of cycles DRAM bank 5 spends closing rows for requests
+dram_bank_5_close_time 200
+
+#Number of DRAM bank 5 read requests
+dram_bank_5_read_requests 96
+
+#Number of DRAM bank 5 write requests
+dram_bank_5_write_requests 0
+
+#Number of cyclesDRAM bank 5 read requests wait in the queue
+dram_bank_5_read_queue_time 18446744073707944597
+
+#Number of cyclesDRAM bank 5 write requests wait in the queue
+dram_bank_5_write_queue_time 0
+
+#Total number of cycles of DRAM bank 5 read requests
+dram_bank_5_read_total_time 7181
+
+#Total number of cycles of DRAM bank 5 write requests
+dram_bank_5_write_total_time 0
+
+#Number of DRAM bank 5 row buffer hits
+dram_bank_5_row_buffer_hits 91
+
+#Number of DRAM bank 5 row buffer misses
+dram_bank_5_row_buffer_misses 5
+
+#Number of DRAM bank 5 opens
+dram_bank_5_num_opens 5
+
+#Number of DRAM bank 5 accesses
+dram_bank_5_num_accesses 96
+
+#Number of DRAM bank 5 closes
+dram_bank_5_num_closes 4
+
+#Number of DRAM bank 5 read after read (RAR) hazards
+dram_bank_5_num_read_after_read 0
+
+#Number of DRAM bank 5 read after write (RAW) hazards
+dram_bank_5_num_read_after_write 0
+
+#Number of DRAM bank 5 write after read (WAR) hazards
+dram_bank_5_num_write_after_read 0
+
+#Number of DRAM bank 5 write after write (WAW) hazards
+dram_bank_5_num_write_after_write 0
+
+#Number of cycles DRAM bank 5 requests wait for lower priority requests
+dram_bank_5_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 5 requests wait for same priority requests
+dram_bank_5_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 5 requests wait for higher priority requests
+dram_bank_5_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 6 spend in the queue
+dram_bank_6_queue_time 18446744073708080239
+
+#Number of cycles DRAM bank 6 spends opening rows for requests
+dram_bank_6_open_time 450
+
+#Number of cycles DRAM bank 6 spends accessing rows for requests
+dram_bank_6_access_time 0
+
+#Number of cycles DRAM bank 6 spends closing rows for requests
+dram_bank_6_close_time 400
+
+#Number of DRAM bank 6 read requests
+dram_bank_6_read_requests 83
+
+#Number of DRAM bank 6 write requests
+dram_bank_6_write_requests 0
+
+#Number of cyclesDRAM bank 6 read requests wait in the queue
+dram_bank_6_read_queue_time 18446744073708080239
+
+#Number of cyclesDRAM bank 6 write requests wait in the queue
+dram_bank_6_write_queue_time 0
+
+#Total number of cycles of DRAM bank 6 read requests
+dram_bank_6_read_total_time 6849
+
+#Total number of cycles of DRAM bank 6 write requests
+dram_bank_6_write_total_time 0
+
+#Number of DRAM bank 6 row buffer hits
+dram_bank_6_row_buffer_hits 74
+
+#Number of DRAM bank 6 row buffer misses
+dram_bank_6_row_buffer_misses 9
+
+#Number of DRAM bank 6 opens
+dram_bank_6_num_opens 9
+
+#Number of DRAM bank 6 accesses
+dram_bank_6_num_accesses 83
+
+#Number of DRAM bank 6 closes
+dram_bank_6_num_closes 8
+
+#Number of DRAM bank 6 read after read (RAR) hazards
+dram_bank_6_num_read_after_read 0
+
+#Number of DRAM bank 6 read after write (RAW) hazards
+dram_bank_6_num_read_after_write 0
+
+#Number of DRAM bank 6 write after read (WAR) hazards
+dram_bank_6_num_write_after_read 0
+
+#Number of DRAM bank 6 write after write (WAW) hazards
+dram_bank_6_num_write_after_write 0
+
+#Number of cycles DRAM bank 6 requests wait for lower priority requests
+dram_bank_6_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 6 requests wait for same priority requests
+dram_bank_6_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 6 requests wait for higher priority requests
+dram_bank_6_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 7 spend in the queue
+dram_bank_7_queue_time 18446744073709036407
+
+#Number of cycles DRAM bank 7 spends opening rows for requests
+dram_bank_7_open_time 250
+
+#Number of cycles DRAM bank 7 spends accessing rows for requests
+dram_bank_7_access_time 0
+
+#Number of cycles DRAM bank 7 spends closing rows for requests
+dram_bank_7_close_time 200
+
+#Number of DRAM bank 7 read requests
+dram_bank_7_read_requests 78
+
+#Number of DRAM bank 7 write requests
+dram_bank_7_write_requests 0
+
+#Number of cyclesDRAM bank 7 read requests wait in the queue
+dram_bank_7_read_queue_time 18446744073709036407
+
+#Number of cyclesDRAM bank 7 write requests wait in the queue
+dram_bank_7_write_queue_time 0
+
+#Total number of cycles of DRAM bank 7 read requests
+dram_bank_7_read_total_time 5839
+
+#Total number of cycles of DRAM bank 7 write requests
+dram_bank_7_write_total_time 0
+
+#Number of DRAM bank 7 row buffer hits
+dram_bank_7_row_buffer_hits 73
+
+#Number of DRAM bank 7 row buffer misses
+dram_bank_7_row_buffer_misses 5
+
+#Number of DRAM bank 7 opens
+dram_bank_7_num_opens 5
+
+#Number of DRAM bank 7 accesses
+dram_bank_7_num_accesses 78
+
+#Number of DRAM bank 7 closes
+dram_bank_7_num_closes 4
+
+#Number of DRAM bank 7 read after read (RAR) hazards
+dram_bank_7_num_read_after_read 0
+
+#Number of DRAM bank 7 read after write (RAW) hazards
+dram_bank_7_num_read_after_write 0
+
+#Number of DRAM bank 7 write after read (WAR) hazards
+dram_bank_7_num_write_after_read 0
+
+#Number of DRAM bank 7 write after write (WAW) hazards
+dram_bank_7_num_write_after_write 0
+
+#Number of cycles DRAM bank 7 requests wait for lower priority requests
+dram_bank_7_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 7 requests wait for same priority requests
+dram_bank_7_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 7 requests wait for higher priority requests
+dram_bank_7_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 8 spend in the queue
+dram_bank_8_queue_time 18446744073706424867
+
+#Number of cycles DRAM bank 8 spends opening rows for requests
+dram_bank_8_open_time 350
+
+#Number of cycles DRAM bank 8 spends accessing rows for requests
+dram_bank_8_access_time 0
+
+#Number of cycles DRAM bank 8 spends closing rows for requests
+dram_bank_8_close_time 300
+
+#Number of DRAM bank 8 read requests
+dram_bank_8_read_requests 126
+
+#Number of DRAM bank 8 write requests
+dram_bank_8_write_requests 0
+
+#Number of cyclesDRAM bank 8 read requests wait in the queue
+dram_bank_8_read_queue_time 18446744073706424867
+
+#Number of cyclesDRAM bank 8 write requests wait in the queue
+dram_bank_8_write_queue_time 0
+
+#Total number of cycles of DRAM bank 8 read requests
+dram_bank_8_read_total_time 9721
+
+#Total number of cycles of DRAM bank 8 write requests
+dram_bank_8_write_total_time 0
+
+#Number of DRAM bank 8 row buffer hits
+dram_bank_8_row_buffer_hits 119
+
+#Number of DRAM bank 8 row buffer misses
+dram_bank_8_row_buffer_misses 7
+
+#Number of DRAM bank 8 opens
+dram_bank_8_num_opens 7
+
+#Number of DRAM bank 8 accesses
+dram_bank_8_num_accesses 126
+
+#Number of DRAM bank 8 closes
+dram_bank_8_num_closes 6
+
+#Number of DRAM bank 8 read after read (RAR) hazards
+dram_bank_8_num_read_after_read 0
+
+#Number of DRAM bank 8 read after write (RAW) hazards
+dram_bank_8_num_read_after_write 0
+
+#Number of DRAM bank 8 write after read (WAR) hazards
+dram_bank_8_num_write_after_read 0
+
+#Number of DRAM bank 8 write after write (WAW) hazards
+dram_bank_8_num_write_after_write 0
+
+#Number of cycles DRAM bank 8 requests wait for lower priority requests
+dram_bank_8_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 8 requests wait for same priority requests
+dram_bank_8_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 8 requests wait for higher priority requests
+dram_bank_8_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 9 spend in the queue
+dram_bank_9_queue_time 18446744073706579606
+
+#Number of cycles DRAM bank 9 spends opening rows for requests
+dram_bank_9_open_time 450
+
+#Number of cycles DRAM bank 9 spends accessing rows for requests
+dram_bank_9_access_time 0
+
+#Number of cycles DRAM bank 9 spends closing rows for requests
+dram_bank_9_close_time 400
+
+#Number of DRAM bank 9 read requests
+dram_bank_9_read_requests 158
+
+#Number of DRAM bank 9 write requests
+dram_bank_9_write_requests 0
+
+#Number of cyclesDRAM bank 9 read requests wait in the queue
+dram_bank_9_read_queue_time 18446744073706579606
+
+#Number of cyclesDRAM bank 9 write requests wait in the queue
+dram_bank_9_write_queue_time 0
+
+#Total number of cycles of DRAM bank 9 read requests
+dram_bank_9_read_total_time 13842
+
+#Total number of cycles of DRAM bank 9 write requests
+dram_bank_9_write_total_time 0
+
+#Number of DRAM bank 9 row buffer hits
+dram_bank_9_row_buffer_hits 149
+
+#Number of DRAM bank 9 row buffer misses
+dram_bank_9_row_buffer_misses 9
+
+#Number of DRAM bank 9 opens
+dram_bank_9_num_opens 9
+
+#Number of DRAM bank 9 accesses
+dram_bank_9_num_accesses 158
+
+#Number of DRAM bank 9 closes
+dram_bank_9_num_closes 8
+
+#Number of DRAM bank 9 read after read (RAR) hazards
+dram_bank_9_num_read_after_read 0
+
+#Number of DRAM bank 9 read after write (RAW) hazards
+dram_bank_9_num_read_after_write 0
+
+#Number of DRAM bank 9 write after read (WAR) hazards
+dram_bank_9_num_write_after_read 0
+
+#Number of DRAM bank 9 write after write (WAW) hazards
+dram_bank_9_num_write_after_write 0
+
+#Number of cycles DRAM bank 9 requests wait for lower priority requests
+dram_bank_9_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 9 requests wait for same priority requests
+dram_bank_9_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 9 requests wait for higher priority requests
+dram_bank_9_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 10 spend in the queue
+dram_bank_10_queue_time 18446744073701547738
+
+#Number of cycles DRAM bank 10 spends opening rows for requests
+dram_bank_10_open_time 300
+
+#Number of cycles DRAM bank 10 spends accessing rows for requests
+dram_bank_10_access_time 0
+
+#Number of cycles DRAM bank 10 spends closing rows for requests
+dram_bank_10_close_time 250
+
+#Number of DRAM bank 10 read requests
+dram_bank_10_read_requests 135
+
+#Number of DRAM bank 10 write requests
+dram_bank_10_write_requests 0
+
+#Number of cyclesDRAM bank 10 read requests wait in the queue
+dram_bank_10_read_queue_time 18446744073701547738
+
+#Number of cyclesDRAM bank 10 write requests wait in the queue
+dram_bank_10_write_queue_time 0
+
+#Total number of cycles of DRAM bank 10 read requests
+dram_bank_10_read_total_time 9975
+
+#Total number of cycles of DRAM bank 10 write requests
+dram_bank_10_write_total_time 0
+
+#Number of DRAM bank 10 row buffer hits
+dram_bank_10_row_buffer_hits 129
+
+#Number of DRAM bank 10 row buffer misses
+dram_bank_10_row_buffer_misses 6
+
+#Number of DRAM bank 10 opens
+dram_bank_10_num_opens 6
+
+#Number of DRAM bank 10 accesses
+dram_bank_10_num_accesses 135
+
+#Number of DRAM bank 10 closes
+dram_bank_10_num_closes 5
+
+#Number of DRAM bank 10 read after read (RAR) hazards
+dram_bank_10_num_read_after_read 0
+
+#Number of DRAM bank 10 read after write (RAW) hazards
+dram_bank_10_num_read_after_write 0
+
+#Number of DRAM bank 10 write after read (WAR) hazards
+dram_bank_10_num_write_after_read 0
+
+#Number of DRAM bank 10 write after write (WAW) hazards
+dram_bank_10_num_write_after_write 0
+
+#Number of cycles DRAM bank 10 requests wait for lower priority requests
+dram_bank_10_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 10 requests wait for same priority requests
+dram_bank_10_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 10 requests wait for higher priority requests
+dram_bank_10_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 11 spend in the queue
+dram_bank_11_queue_time 18446744073706160986
+
+#Number of cycles DRAM bank 11 spends opening rows for requests
+dram_bank_11_open_time 350
+
+#Number of cycles DRAM bank 11 spends accessing rows for requests
+dram_bank_11_access_time 0
+
+#Number of cycles DRAM bank 11 spends closing rows for requests
+dram_bank_11_close_time 300
+
+#Number of DRAM bank 11 read requests
+dram_bank_11_read_requests 136
+
+#Number of DRAM bank 11 write requests
+dram_bank_11_write_requests 0
+
+#Number of cyclesDRAM bank 11 read requests wait in the queue
+dram_bank_11_read_queue_time 18446744073706160986
+
+#Number of cyclesDRAM bank 11 write requests wait in the queue
+dram_bank_11_write_queue_time 0
+
+#Total number of cycles of DRAM bank 11 read requests
+dram_bank_11_read_total_time 10451
+
+#Total number of cycles of DRAM bank 11 write requests
+dram_bank_11_write_total_time 0
+
+#Number of DRAM bank 11 row buffer hits
+dram_bank_11_row_buffer_hits 129
+
+#Number of DRAM bank 11 row buffer misses
+dram_bank_11_row_buffer_misses 7
+
+#Number of DRAM bank 11 opens
+dram_bank_11_num_opens 7
+
+#Number of DRAM bank 11 accesses
+dram_bank_11_num_accesses 136
+
+#Number of DRAM bank 11 closes
+dram_bank_11_num_closes 6
+
+#Number of DRAM bank 11 read after read (RAR) hazards
+dram_bank_11_num_read_after_read 0
+
+#Number of DRAM bank 11 read after write (RAW) hazards
+dram_bank_11_num_read_after_write 0
+
+#Number of DRAM bank 11 write after read (WAR) hazards
+dram_bank_11_num_write_after_read 0
+
+#Number of DRAM bank 11 write after write (WAW) hazards
+dram_bank_11_num_write_after_write 0
+
+#Number of cycles DRAM bank 11 requests wait for lower priority requests
+dram_bank_11_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 11 requests wait for same priority requests
+dram_bank_11_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 11 requests wait for higher priority requests
+dram_bank_11_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 12 spend in the queue
+dram_bank_12_queue_time 18446744073707797352
+
+#Number of cycles DRAM bank 12 spends opening rows for requests
+dram_bank_12_open_time 300
+
+#Number of cycles DRAM bank 12 spends accessing rows for requests
+dram_bank_12_access_time 0
+
+#Number of cycles DRAM bank 12 spends closing rows for requests
+dram_bank_12_close_time 250
+
+#Number of DRAM bank 12 read requests
+dram_bank_12_read_requests 70
+
+#Number of DRAM bank 12 write requests
+dram_bank_12_write_requests 0
+
+#Number of cyclesDRAM bank 12 read requests wait in the queue
+dram_bank_12_read_queue_time 18446744073707797352
+
+#Number of cyclesDRAM bank 12 write requests wait in the queue
+dram_bank_12_write_queue_time 0
+
+#Total number of cycles of DRAM bank 12 read requests
+dram_bank_12_read_total_time 5986
+
+#Total number of cycles of DRAM bank 12 write requests
+dram_bank_12_write_total_time 0
+
+#Number of DRAM bank 12 row buffer hits
+dram_bank_12_row_buffer_hits 64
+
+#Number of DRAM bank 12 row buffer misses
+dram_bank_12_row_buffer_misses 6
+
+#Number of DRAM bank 12 opens
+dram_bank_12_num_opens 6
+
+#Number of DRAM bank 12 accesses
+dram_bank_12_num_accesses 70
+
+#Number of DRAM bank 12 closes
+dram_bank_12_num_closes 5
+
+#Number of DRAM bank 12 read after read (RAR) hazards
+dram_bank_12_num_read_after_read 0
+
+#Number of DRAM bank 12 read after write (RAW) hazards
+dram_bank_12_num_read_after_write 0
+
+#Number of DRAM bank 12 write after read (WAR) hazards
+dram_bank_12_num_write_after_read 0
+
+#Number of DRAM bank 12 write after write (WAW) hazards
+dram_bank_12_num_write_after_write 0
+
+#Number of cycles DRAM bank 12 requests wait for lower priority requests
+dram_bank_12_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 12 requests wait for same priority requests
+dram_bank_12_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 12 requests wait for higher priority requests
+dram_bank_12_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 13 spend in the queue
+dram_bank_13_queue_time 18446744073708525125
+
+#Number of cycles DRAM bank 13 spends opening rows for requests
+dram_bank_13_open_time 350
+
+#Number of cycles DRAM bank 13 spends accessing rows for requests
+dram_bank_13_access_time 0
+
+#Number of cycles DRAM bank 13 spends closing rows for requests
+dram_bank_13_close_time 300
+
+#Number of DRAM bank 13 read requests
+dram_bank_13_read_requests 77
+
+#Number of DRAM bank 13 write requests
+dram_bank_13_write_requests 0
+
+#Number of cyclesDRAM bank 13 read requests wait in the queue
+dram_bank_13_read_queue_time 18446744073708525125
+
+#Number of cyclesDRAM bank 13 write requests wait in the queue
+dram_bank_13_write_queue_time 0
+
+#Total number of cycles of DRAM bank 13 read requests
+dram_bank_13_read_total_time 6316
+
+#Total number of cycles of DRAM bank 13 write requests
+dram_bank_13_write_total_time 0
+
+#Number of DRAM bank 13 row buffer hits
+dram_bank_13_row_buffer_hits 70
+
+#Number of DRAM bank 13 row buffer misses
+dram_bank_13_row_buffer_misses 7
+
+#Number of DRAM bank 13 opens
+dram_bank_13_num_opens 7
+
+#Number of DRAM bank 13 accesses
+dram_bank_13_num_accesses 77
+
+#Number of DRAM bank 13 closes
+dram_bank_13_num_closes 6
+
+#Number of DRAM bank 13 read after read (RAR) hazards
+dram_bank_13_num_read_after_read 0
+
+#Number of DRAM bank 13 read after write (RAW) hazards
+dram_bank_13_num_read_after_write 0
+
+#Number of DRAM bank 13 write after read (WAR) hazards
+dram_bank_13_num_write_after_read 0
+
+#Number of DRAM bank 13 write after write (WAW) hazards
+dram_bank_13_num_write_after_write 0
+
+#Number of cycles DRAM bank 13 requests wait for lower priority requests
+dram_bank_13_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 13 requests wait for same priority requests
+dram_bank_13_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 13 requests wait for higher priority requests
+dram_bank_13_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 14 spend in the queue
+dram_bank_14_queue_time 18446744073705138939
+
+#Number of cycles DRAM bank 14 spends opening rows for requests
+dram_bank_14_open_time 300
+
+#Number of cycles DRAM bank 14 spends accessing rows for requests
+dram_bank_14_access_time 0
+
+#Number of cycles DRAM bank 14 spends closing rows for requests
+dram_bank_14_close_time 250
+
+#Number of DRAM bank 14 read requests
+dram_bank_14_read_requests 97
+
+#Number of DRAM bank 14 write requests
+dram_bank_14_write_requests 0
+
+#Number of cyclesDRAM bank 14 read requests wait in the queue
+dram_bank_14_read_queue_time 18446744073705138939
+
+#Number of cyclesDRAM bank 14 write requests wait in the queue
+dram_bank_14_write_queue_time 0
+
+#Total number of cycles of DRAM bank 14 read requests
+dram_bank_14_read_total_time 9958
+
+#Total number of cycles of DRAM bank 14 write requests
+dram_bank_14_write_total_time 0
+
+#Number of DRAM bank 14 row buffer hits
+dram_bank_14_row_buffer_hits 91
+
+#Number of DRAM bank 14 row buffer misses
+dram_bank_14_row_buffer_misses 6
+
+#Number of DRAM bank 14 opens
+dram_bank_14_num_opens 6
+
+#Number of DRAM bank 14 accesses
+dram_bank_14_num_accesses 97
+
+#Number of DRAM bank 14 closes
+dram_bank_14_num_closes 5
+
+#Number of DRAM bank 14 read after read (RAR) hazards
+dram_bank_14_num_read_after_read 0
+
+#Number of DRAM bank 14 read after write (RAW) hazards
+dram_bank_14_num_read_after_write 0
+
+#Number of DRAM bank 14 write after read (WAR) hazards
+dram_bank_14_num_write_after_read 0
+
+#Number of DRAM bank 14 write after write (WAW) hazards
+dram_bank_14_num_write_after_write 0
+
+#Number of cycles DRAM bank 14 requests wait for lower priority requests
+dram_bank_14_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 14 requests wait for same priority requests
+dram_bank_14_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 14 requests wait for higher priority requests
+dram_bank_14_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 15 spend in the queue
+dram_bank_15_queue_time 18446744073699859972
+
+#Number of cycles DRAM bank 15 spends opening rows for requests
+dram_bank_15_open_time 450
+
+#Number of cycles DRAM bank 15 spends accessing rows for requests
+dram_bank_15_access_time 0
+
+#Number of cycles DRAM bank 15 spends closing rows for requests
+dram_bank_15_close_time 400
+
+#Number of DRAM bank 15 read requests
+dram_bank_15_read_requests 135
+
+#Number of DRAM bank 15 write requests
+dram_bank_15_write_requests 0
+
+#Number of cyclesDRAM bank 15 read requests wait in the queue
+dram_bank_15_read_queue_time 18446744073699859972
+
+#Number of cyclesDRAM bank 15 write requests wait in the queue
+dram_bank_15_write_queue_time 0
+
+#Total number of cycles of DRAM bank 15 read requests
+dram_bank_15_read_total_time 10307
+
+#Total number of cycles of DRAM bank 15 write requests
+dram_bank_15_write_total_time 0
+
+#Number of DRAM bank 15 row buffer hits
+dram_bank_15_row_buffer_hits 126
+
+#Number of DRAM bank 15 row buffer misses
+dram_bank_15_row_buffer_misses 9
+
+#Number of DRAM bank 15 opens
+dram_bank_15_num_opens 9
+
+#Number of DRAM bank 15 accesses
+dram_bank_15_num_accesses 135
+
+#Number of DRAM bank 15 closes
+dram_bank_15_num_closes 8
+
+#Number of DRAM bank 15 read after read (RAR) hazards
+dram_bank_15_num_read_after_read 0
+
+#Number of DRAM bank 15 read after write (RAW) hazards
+dram_bank_15_num_read_after_write 0
+
+#Number of DRAM bank 15 write after read (WAR) hazards
+dram_bank_15_num_write_after_read 0
+
+#Number of DRAM bank 15 write after write (WAW) hazards
+dram_bank_15_num_write_after_write 0
+
+#Number of cycles DRAM bank 15 requests wait for lower priority requests
+dram_bank_15_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 15 requests wait for same priority requests
+dram_bank_15_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 15 requests wait for higher priority requests
+dram_bank_15_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 16 spend in the queue
+dram_bank_16_queue_time 18446744073704776179
+
+#Number of cycles DRAM bank 16 spends opening rows for requests
+dram_bank_16_open_time 350
+
+#Number of cycles DRAM bank 16 spends accessing rows for requests
+dram_bank_16_access_time 0
+
+#Number of cycles DRAM bank 16 spends closing rows for requests
+dram_bank_16_close_time 300
+
+#Number of DRAM bank 16 read requests
+dram_bank_16_read_requests 89
+
+#Number of DRAM bank 16 write requests
+dram_bank_16_write_requests 0
+
+#Number of cyclesDRAM bank 16 read requests wait in the queue
+dram_bank_16_read_queue_time 18446744073704776179
+
+#Number of cyclesDRAM bank 16 write requests wait in the queue
+dram_bank_16_write_queue_time 0
+
+#Total number of cycles of DRAM bank 16 read requests
+dram_bank_16_read_total_time 7390
+
+#Total number of cycles of DRAM bank 16 write requests
+dram_bank_16_write_total_time 0
+
+#Number of DRAM bank 16 row buffer hits
+dram_bank_16_row_buffer_hits 82
+
+#Number of DRAM bank 16 row buffer misses
+dram_bank_16_row_buffer_misses 7
+
+#Number of DRAM bank 16 opens
+dram_bank_16_num_opens 7
+
+#Number of DRAM bank 16 accesses
+dram_bank_16_num_accesses 89
+
+#Number of DRAM bank 16 closes
+dram_bank_16_num_closes 6
+
+#Number of DRAM bank 16 read after read (RAR) hazards
+dram_bank_16_num_read_after_read 0
+
+#Number of DRAM bank 16 read after write (RAW) hazards
+dram_bank_16_num_read_after_write 0
+
+#Number of DRAM bank 16 write after read (WAR) hazards
+dram_bank_16_num_write_after_read 0
+
+#Number of DRAM bank 16 write after write (WAW) hazards
+dram_bank_16_num_write_after_write 0
+
+#Number of cycles DRAM bank 16 requests wait for lower priority requests
+dram_bank_16_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 16 requests wait for same priority requests
+dram_bank_16_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 16 requests wait for higher priority requests
+dram_bank_16_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 17 spend in the queue
+dram_bank_17_queue_time 18446744073704464063
+
+#Number of cycles DRAM bank 17 spends opening rows for requests
+dram_bank_17_open_time 450
+
+#Number of cycles DRAM bank 17 spends accessing rows for requests
+dram_bank_17_access_time 0
+
+#Number of cycles DRAM bank 17 spends closing rows for requests
+dram_bank_17_close_time 400
+
+#Number of DRAM bank 17 read requests
+dram_bank_17_read_requests 170
+
+#Number of DRAM bank 17 write requests
+dram_bank_17_write_requests 0
+
+#Number of cyclesDRAM bank 17 read requests wait in the queue
+dram_bank_17_read_queue_time 18446744073704464063
+
+#Number of cyclesDRAM bank 17 write requests wait in the queue
+dram_bank_17_write_queue_time 0
+
+#Total number of cycles of DRAM bank 17 read requests
+dram_bank_17_read_total_time 13082
+
+#Total number of cycles of DRAM bank 17 write requests
+dram_bank_17_write_total_time 0
+
+#Number of DRAM bank 17 row buffer hits
+dram_bank_17_row_buffer_hits 161
+
+#Number of DRAM bank 17 row buffer misses
+dram_bank_17_row_buffer_misses 9
+
+#Number of DRAM bank 17 opens
+dram_bank_17_num_opens 9
+
+#Number of DRAM bank 17 accesses
+dram_bank_17_num_accesses 170
+
+#Number of DRAM bank 17 closes
+dram_bank_17_num_closes 8
+
+#Number of DRAM bank 17 read after read (RAR) hazards
+dram_bank_17_num_read_after_read 0
+
+#Number of DRAM bank 17 read after write (RAW) hazards
+dram_bank_17_num_read_after_write 0
+
+#Number of DRAM bank 17 write after read (WAR) hazards
+dram_bank_17_num_write_after_read 0
+
+#Number of DRAM bank 17 write after write (WAW) hazards
+dram_bank_17_num_write_after_write 0
+
+#Number of cycles DRAM bank 17 requests wait for lower priority requests
+dram_bank_17_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 17 requests wait for same priority requests
+dram_bank_17_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 17 requests wait for higher priority requests
+dram_bank_17_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 18 spend in the queue
+dram_bank_18_queue_time 18446744073699839202
+
+#Number of cycles DRAM bank 18 spends opening rows for requests
+dram_bank_18_open_time 250
+
+#Number of cycles DRAM bank 18 spends accessing rows for requests
+dram_bank_18_access_time 0
+
+#Number of cycles DRAM bank 18 spends closing rows for requests
+dram_bank_18_close_time 200
+
+#Number of DRAM bank 18 read requests
+dram_bank_18_read_requests 223
+
+#Number of DRAM bank 18 write requests
+dram_bank_18_write_requests 0
+
+#Number of cyclesDRAM bank 18 read requests wait in the queue
+dram_bank_18_read_queue_time 18446744073699839202
+
+#Number of cyclesDRAM bank 18 write requests wait in the queue
+dram_bank_18_write_queue_time 0
+
+#Total number of cycles of DRAM bank 18 read requests
+dram_bank_18_read_total_time 16398
+
+#Total number of cycles of DRAM bank 18 write requests
+dram_bank_18_write_total_time 0
+
+#Number of DRAM bank 18 row buffer hits
+dram_bank_18_row_buffer_hits 218
+
+#Number of DRAM bank 18 row buffer misses
+dram_bank_18_row_buffer_misses 5
+
+#Number of DRAM bank 18 opens
+dram_bank_18_num_opens 5
+
+#Number of DRAM bank 18 accesses
+dram_bank_18_num_accesses 223
+
+#Number of DRAM bank 18 closes
+dram_bank_18_num_closes 4
+
+#Number of DRAM bank 18 read after read (RAR) hazards
+dram_bank_18_num_read_after_read 0
+
+#Number of DRAM bank 18 read after write (RAW) hazards
+dram_bank_18_num_read_after_write 0
+
+#Number of DRAM bank 18 write after read (WAR) hazards
+dram_bank_18_num_write_after_read 0
+
+#Number of DRAM bank 18 write after write (WAW) hazards
+dram_bank_18_num_write_after_write 0
+
+#Number of cycles DRAM bank 18 requests wait for lower priority requests
+dram_bank_18_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 18 requests wait for same priority requests
+dram_bank_18_wait_same_priority_time 100
+
+#Number of cycles DRAM bank 18 requests wait for higher priority requests
+dram_bank_18_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 19 spend in the queue
+dram_bank_19_queue_time 18446744073693074708
+
+#Number of cycles DRAM bank 19 spends opening rows for requests
+dram_bank_19_open_time 450
+
+#Number of cycles DRAM bank 19 spends accessing rows for requests
+dram_bank_19_access_time 0
+
+#Number of cycles DRAM bank 19 spends closing rows for requests
+dram_bank_19_close_time 400
+
+#Number of DRAM bank 19 read requests
+dram_bank_19_read_requests 200
+
+#Number of DRAM bank 19 write requests
+dram_bank_19_write_requests 0
+
+#Number of cyclesDRAM bank 19 read requests wait in the queue
+dram_bank_19_read_queue_time 18446744073693074708
+
+#Number of cyclesDRAM bank 19 write requests wait in the queue
+dram_bank_19_write_queue_time 0
+
+#Total number of cycles of DRAM bank 19 read requests
+dram_bank_19_read_total_time 15903
+
+#Total number of cycles of DRAM bank 19 write requests
+dram_bank_19_write_total_time 0
+
+#Number of DRAM bank 19 row buffer hits
+dram_bank_19_row_buffer_hits 191
+
+#Number of DRAM bank 19 row buffer misses
+dram_bank_19_row_buffer_misses 9
+
+#Number of DRAM bank 19 opens
+dram_bank_19_num_opens 9
+
+#Number of DRAM bank 19 accesses
+dram_bank_19_num_accesses 200
+
+#Number of DRAM bank 19 closes
+dram_bank_19_num_closes 8
+
+#Number of DRAM bank 19 read after read (RAR) hazards
+dram_bank_19_num_read_after_read 0
+
+#Number of DRAM bank 19 read after write (RAW) hazards
+dram_bank_19_num_read_after_write 0
+
+#Number of DRAM bank 19 write after read (WAR) hazards
+dram_bank_19_num_write_after_read 0
+
+#Number of DRAM bank 19 write after write (WAW) hazards
+dram_bank_19_num_write_after_write 0
+
+#Number of cycles DRAM bank 19 requests wait for lower priority requests
+dram_bank_19_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 19 requests wait for same priority requests
+dram_bank_19_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 19 requests wait for higher priority requests
+dram_bank_19_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 20 spend in the queue
+dram_bank_20_queue_time 18446744073702179384
+
+#Number of cycles DRAM bank 20 spends opening rows for requests
+dram_bank_20_open_time 300
+
+#Number of cycles DRAM bank 20 spends accessing rows for requests
+dram_bank_20_access_time 0
+
+#Number of cycles DRAM bank 20 spends closing rows for requests
+dram_bank_20_close_time 250
+
+#Number of DRAM bank 20 read requests
+dram_bank_20_read_requests 140
+
+#Number of DRAM bank 20 write requests
+dram_bank_20_write_requests 0
+
+#Number of cyclesDRAM bank 20 read requests wait in the queue
+dram_bank_20_read_queue_time 18446744073702179384
+
+#Number of cyclesDRAM bank 20 write requests wait in the queue
+dram_bank_20_write_queue_time 0
+
+#Total number of cycles of DRAM bank 20 read requests
+dram_bank_20_read_total_time 11908
+
+#Total number of cycles of DRAM bank 20 write requests
+dram_bank_20_write_total_time 0
+
+#Number of DRAM bank 20 row buffer hits
+dram_bank_20_row_buffer_hits 134
+
+#Number of DRAM bank 20 row buffer misses
+dram_bank_20_row_buffer_misses 6
+
+#Number of DRAM bank 20 opens
+dram_bank_20_num_opens 6
+
+#Number of DRAM bank 20 accesses
+dram_bank_20_num_accesses 140
+
+#Number of DRAM bank 20 closes
+dram_bank_20_num_closes 5
+
+#Number of DRAM bank 20 read after read (RAR) hazards
+dram_bank_20_num_read_after_read 0
+
+#Number of DRAM bank 20 read after write (RAW) hazards
+dram_bank_20_num_read_after_write 0
+
+#Number of DRAM bank 20 write after read (WAR) hazards
+dram_bank_20_num_write_after_read 0
+
+#Number of DRAM bank 20 write after write (WAW) hazards
+dram_bank_20_num_write_after_write 0
+
+#Number of cycles DRAM bank 20 requests wait for lower priority requests
+dram_bank_20_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 20 requests wait for same priority requests
+dram_bank_20_wait_same_priority_time 100
+
+#Number of cycles DRAM bank 20 requests wait for higher priority requests
+dram_bank_20_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 21 spend in the queue
+dram_bank_21_queue_time 18446744073699573541
+
+#Number of cycles DRAM bank 21 spends opening rows for requests
+dram_bank_21_open_time 300
+
+#Number of cycles DRAM bank 21 spends accessing rows for requests
+dram_bank_21_access_time 0
+
+#Number of cycles DRAM bank 21 spends closing rows for requests
+dram_bank_21_close_time 250
+
+#Number of DRAM bank 21 read requests
+dram_bank_21_read_requests 176
+
+#Number of DRAM bank 21 write requests
+dram_bank_21_write_requests 0
+
+#Number of cyclesDRAM bank 21 read requests wait in the queue
+dram_bank_21_read_queue_time 18446744073699573541
+
+#Number of cyclesDRAM bank 21 write requests wait in the queue
+dram_bank_21_write_queue_time 0
+
+#Total number of cycles of DRAM bank 21 read requests
+dram_bank_21_read_total_time 13339
+
+#Total number of cycles of DRAM bank 21 write requests
+dram_bank_21_write_total_time 0
+
+#Number of DRAM bank 21 row buffer hits
+dram_bank_21_row_buffer_hits 170
+
+#Number of DRAM bank 21 row buffer misses
+dram_bank_21_row_buffer_misses 6
+
+#Number of DRAM bank 21 opens
+dram_bank_21_num_opens 6
+
+#Number of DRAM bank 21 accesses
+dram_bank_21_num_accesses 176
+
+#Number of DRAM bank 21 closes
+dram_bank_21_num_closes 5
+
+#Number of DRAM bank 21 read after read (RAR) hazards
+dram_bank_21_num_read_after_read 0
+
+#Number of DRAM bank 21 read after write (RAW) hazards
+dram_bank_21_num_read_after_write 0
+
+#Number of DRAM bank 21 write after read (WAR) hazards
+dram_bank_21_num_write_after_read 0
+
+#Number of DRAM bank 21 write after write (WAW) hazards
+dram_bank_21_num_write_after_write 0
+
+#Number of cycles DRAM bank 21 requests wait for lower priority requests
+dram_bank_21_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 21 requests wait for same priority requests
+dram_bank_21_wait_same_priority_time 50
+
+#Number of cycles DRAM bank 21 requests wait for higher priority requests
+dram_bank_21_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 22 spend in the queue
+dram_bank_22_queue_time 18446744073701707648
+
+#Number of cycles DRAM bank 22 spends opening rows for requests
+dram_bank_22_open_time 250
+
+#Number of cycles DRAM bank 22 spends accessing rows for requests
+dram_bank_22_access_time 0
+
+#Number of cycles DRAM bank 22 spends closing rows for requests
+dram_bank_22_close_time 200
+
+#Number of DRAM bank 22 read requests
+dram_bank_22_read_requests 164
+
+#Number of DRAM bank 22 write requests
+dram_bank_22_write_requests 0
+
+#Number of cyclesDRAM bank 22 read requests wait in the queue
+dram_bank_22_read_queue_time 18446744073701707648
+
+#Number of cyclesDRAM bank 22 write requests wait in the queue
+dram_bank_22_write_queue_time 0
+
+#Total number of cycles of DRAM bank 22 read requests
+dram_bank_22_read_total_time 13584
+
+#Total number of cycles of DRAM bank 22 write requests
+dram_bank_22_write_total_time 0
+
+#Number of DRAM bank 22 row buffer hits
+dram_bank_22_row_buffer_hits 159
+
+#Number of DRAM bank 22 row buffer misses
+dram_bank_22_row_buffer_misses 5
+
+#Number of DRAM bank 22 opens
+dram_bank_22_num_opens 5
+
+#Number of DRAM bank 22 accesses
+dram_bank_22_num_accesses 164
+
+#Number of DRAM bank 22 closes
+dram_bank_22_num_closes 4
+
+#Number of DRAM bank 22 read after read (RAR) hazards
+dram_bank_22_num_read_after_read 0
+
+#Number of DRAM bank 22 read after write (RAW) hazards
+dram_bank_22_num_read_after_write 0
+
+#Number of DRAM bank 22 write after read (WAR) hazards
+dram_bank_22_num_write_after_read 0
+
+#Number of DRAM bank 22 write after write (WAW) hazards
+dram_bank_22_num_write_after_write 0
+
+#Number of cycles DRAM bank 22 requests wait for lower priority requests
+dram_bank_22_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 22 requests wait for same priority requests
+dram_bank_22_wait_same_priority_time 50
+
+#Number of cycles DRAM bank 22 requests wait for higher priority requests
+dram_bank_22_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 23 spend in the queue
+dram_bank_23_queue_time 18446744073701806068
+
+#Number of cycles DRAM bank 23 spends opening rows for requests
+dram_bank_23_open_time 350
+
+#Number of cycles DRAM bank 23 spends accessing rows for requests
+dram_bank_23_access_time 0
+
+#Number of cycles DRAM bank 23 spends closing rows for requests
+dram_bank_23_close_time 300
+
+#Number of DRAM bank 23 read requests
+dram_bank_23_read_requests 199
+
+#Number of DRAM bank 23 write requests
+dram_bank_23_write_requests 0
+
+#Number of cyclesDRAM bank 23 read requests wait in the queue
+dram_bank_23_read_queue_time 18446744073701806068
+
+#Number of cyclesDRAM bank 23 write requests wait in the queue
+dram_bank_23_write_queue_time 0
+
+#Total number of cycles of DRAM bank 23 read requests
+dram_bank_23_read_total_time 15403
+
+#Total number of cycles of DRAM bank 23 write requests
+dram_bank_23_write_total_time 0
+
+#Number of DRAM bank 23 row buffer hits
+dram_bank_23_row_buffer_hits 192
+
+#Number of DRAM bank 23 row buffer misses
+dram_bank_23_row_buffer_misses 7
+
+#Number of DRAM bank 23 opens
+dram_bank_23_num_opens 7
+
+#Number of DRAM bank 23 accesses
+dram_bank_23_num_accesses 199
+
+#Number of DRAM bank 23 closes
+dram_bank_23_num_closes 6
+
+#Number of DRAM bank 23 read after read (RAR) hazards
+dram_bank_23_num_read_after_read 0
+
+#Number of DRAM bank 23 read after write (RAW) hazards
+dram_bank_23_num_read_after_write 0
+
+#Number of DRAM bank 23 write after read (WAR) hazards
+dram_bank_23_num_write_after_read 0
+
+#Number of DRAM bank 23 write after write (WAW) hazards
+dram_bank_23_num_write_after_write 0
+
+#Number of cycles DRAM bank 23 requests wait for lower priority requests
+dram_bank_23_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 23 requests wait for same priority requests
+dram_bank_23_wait_same_priority_time 100
+
+#Number of cycles DRAM bank 23 requests wait for higher priority requests
+dram_bank_23_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 24 spend in the queue
+dram_bank_24_queue_time 18446744073700532629
+
+#Number of cycles DRAM bank 24 spends opening rows for requests
+dram_bank_24_open_time 650
+
+#Number of cycles DRAM bank 24 spends accessing rows for requests
+dram_bank_24_access_time 0
+
+#Number of cycles DRAM bank 24 spends closing rows for requests
+dram_bank_24_close_time 600
+
+#Number of DRAM bank 24 read requests
+dram_bank_24_read_requests 196
+
+#Number of DRAM bank 24 write requests
+dram_bank_24_write_requests 0
+
+#Number of cyclesDRAM bank 24 read requests wait in the queue
+dram_bank_24_read_queue_time 18446744073700532629
+
+#Number of cyclesDRAM bank 24 write requests wait in the queue
+dram_bank_24_write_queue_time 0
+
+#Total number of cycles of DRAM bank 24 read requests
+dram_bank_24_read_total_time 15811
+
+#Total number of cycles of DRAM bank 24 write requests
+dram_bank_24_write_total_time 0
+
+#Number of DRAM bank 24 row buffer hits
+dram_bank_24_row_buffer_hits 183
+
+#Number of DRAM bank 24 row buffer misses
+dram_bank_24_row_buffer_misses 13
+
+#Number of DRAM bank 24 opens
+dram_bank_24_num_opens 13
+
+#Number of DRAM bank 24 accesses
+dram_bank_24_num_accesses 196
+
+#Number of DRAM bank 24 closes
+dram_bank_24_num_closes 12
+
+#Number of DRAM bank 24 read after read (RAR) hazards
+dram_bank_24_num_read_after_read 0
+
+#Number of DRAM bank 24 read after write (RAW) hazards
+dram_bank_24_num_read_after_write 0
+
+#Number of DRAM bank 24 write after read (WAR) hazards
+dram_bank_24_num_write_after_read 0
+
+#Number of DRAM bank 24 write after write (WAW) hazards
+dram_bank_24_num_write_after_write 0
+
+#Number of cycles DRAM bank 24 requests wait for lower priority requests
+dram_bank_24_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 24 requests wait for same priority requests
+dram_bank_24_wait_same_priority_time 615
+
+#Number of cycles DRAM bank 24 requests wait for higher priority requests
+dram_bank_24_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 25 spend in the queue
+dram_bank_25_queue_time 18446744073695883209
+
+#Number of cycles DRAM bank 25 spends opening rows for requests
+dram_bank_25_open_time 350
+
+#Number of cycles DRAM bank 25 spends accessing rows for requests
+dram_bank_25_access_time 0
+
+#Number of cycles DRAM bank 25 spends closing rows for requests
+dram_bank_25_close_time 300
+
+#Number of DRAM bank 25 read requests
+dram_bank_25_read_requests 183
+
+#Number of DRAM bank 25 write requests
+dram_bank_25_write_requests 0
+
+#Number of cyclesDRAM bank 25 read requests wait in the queue
+dram_bank_25_read_queue_time 18446744073695883209
+
+#Number of cyclesDRAM bank 25 write requests wait in the queue
+dram_bank_25_write_queue_time 0
+
+#Total number of cycles of DRAM bank 25 read requests
+dram_bank_25_read_total_time 13833
+
+#Total number of cycles of DRAM bank 25 write requests
+dram_bank_25_write_total_time 0
+
+#Number of DRAM bank 25 row buffer hits
+dram_bank_25_row_buffer_hits 176
+
+#Number of DRAM bank 25 row buffer misses
+dram_bank_25_row_buffer_misses 7
+
+#Number of DRAM bank 25 opens
+dram_bank_25_num_opens 7
+
+#Number of DRAM bank 25 accesses
+dram_bank_25_num_accesses 183
+
+#Number of DRAM bank 25 closes
+dram_bank_25_num_closes 6
+
+#Number of DRAM bank 25 read after read (RAR) hazards
+dram_bank_25_num_read_after_read 0
+
+#Number of DRAM bank 25 read after write (RAW) hazards
+dram_bank_25_num_read_after_write 0
+
+#Number of DRAM bank 25 write after read (WAR) hazards
+dram_bank_25_num_write_after_read 0
+
+#Number of DRAM bank 25 write after write (WAW) hazards
+dram_bank_25_num_write_after_write 0
+
+#Number of cycles DRAM bank 25 requests wait for lower priority requests
+dram_bank_25_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 25 requests wait for same priority requests
+dram_bank_25_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 25 requests wait for higher priority requests
+dram_bank_25_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 26 spend in the queue
+dram_bank_26_queue_time 18446744073699923080
+
+#Number of cycles DRAM bank 26 spends opening rows for requests
+dram_bank_26_open_time 400
+
+#Number of cycles DRAM bank 26 spends accessing rows for requests
+dram_bank_26_access_time 0
+
+#Number of cycles DRAM bank 26 spends closing rows for requests
+dram_bank_26_close_time 350
+
+#Number of DRAM bank 26 read requests
+dram_bank_26_read_requests 163
+
+#Number of DRAM bank 26 write requests
+dram_bank_26_write_requests 0
+
+#Number of cyclesDRAM bank 26 read requests wait in the queue
+dram_bank_26_read_queue_time 18446744073699923080
+
+#Number of cyclesDRAM bank 26 write requests wait in the queue
+dram_bank_26_write_queue_time 0
+
+#Total number of cycles of DRAM bank 26 read requests
+dram_bank_26_read_total_time 13914
+
+#Total number of cycles of DRAM bank 26 write requests
+dram_bank_26_write_total_time 0
+
+#Number of DRAM bank 26 row buffer hits
+dram_bank_26_row_buffer_hits 155
+
+#Number of DRAM bank 26 row buffer misses
+dram_bank_26_row_buffer_misses 8
+
+#Number of DRAM bank 26 opens
+dram_bank_26_num_opens 8
+
+#Number of DRAM bank 26 accesses
+dram_bank_26_num_accesses 163
+
+#Number of DRAM bank 26 closes
+dram_bank_26_num_closes 7
+
+#Number of DRAM bank 26 read after read (RAR) hazards
+dram_bank_26_num_read_after_read 0
+
+#Number of DRAM bank 26 read after write (RAW) hazards
+dram_bank_26_num_read_after_write 0
+
+#Number of DRAM bank 26 write after read (WAR) hazards
+dram_bank_26_num_write_after_read 0
+
+#Number of DRAM bank 26 write after write (WAW) hazards
+dram_bank_26_num_write_after_write 0
+
+#Number of cycles DRAM bank 26 requests wait for lower priority requests
+dram_bank_26_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 26 requests wait for same priority requests
+dram_bank_26_wait_same_priority_time 50
+
+#Number of cycles DRAM bank 26 requests wait for higher priority requests
+dram_bank_26_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 27 spend in the queue
+dram_bank_27_queue_time 0
+
+#Number of cycles DRAM bank 27 spends opening rows for requests
+dram_bank_27_open_time 500
+
+#Number of cycles DRAM bank 27 spends accessing rows for requests
+dram_bank_27_access_time 0
+
+#Number of cycles DRAM bank 27 spends closing rows for requests
+dram_bank_27_close_time 450
+
+#Number of DRAM bank 27 read requests
+dram_bank_27_read_requests 85
+
+#Number of DRAM bank 27 write requests
+dram_bank_27_write_requests 0
+
+#Number of cyclesDRAM bank 27 read requests wait in the queue
+dram_bank_27_read_queue_time 0
+
+#Number of cyclesDRAM bank 27 write requests wait in the queue
+dram_bank_27_write_queue_time 0
+
+#Total number of cycles of DRAM bank 27 read requests
+dram_bank_27_read_total_time 6885
+
+#Total number of cycles of DRAM bank 27 write requests
+dram_bank_27_write_total_time 0
+
+#Number of DRAM bank 27 row buffer hits
+dram_bank_27_row_buffer_hits 75
+
+#Number of DRAM bank 27 row buffer misses
+dram_bank_27_row_buffer_misses 10
+
+#Number of DRAM bank 27 opens
+dram_bank_27_num_opens 10
+
+#Number of DRAM bank 27 accesses
+dram_bank_27_num_accesses 85
+
+#Number of DRAM bank 27 closes
+dram_bank_27_num_closes 9
+
+#Number of DRAM bank 27 read after read (RAR) hazards
+dram_bank_27_num_read_after_read 0
+
+#Number of DRAM bank 27 read after write (RAW) hazards
+dram_bank_27_num_read_after_write 0
+
+#Number of DRAM bank 27 write after read (WAR) hazards
+dram_bank_27_num_write_after_read 0
+
+#Number of DRAM bank 27 write after write (WAW) hazards
+dram_bank_27_num_write_after_write 0
+
+#Number of cycles DRAM bank 27 requests wait for lower priority requests
+dram_bank_27_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 27 requests wait for same priority requests
+dram_bank_27_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 27 requests wait for higher priority requests
+dram_bank_27_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 28 spend in the queue
+dram_bank_28_queue_time 18446744073708527925
+
+#Number of cycles DRAM bank 28 spends opening rows for requests
+dram_bank_28_open_time 600
+
+#Number of cycles DRAM bank 28 spends accessing rows for requests
+dram_bank_28_access_time 0
+
+#Number of cycles DRAM bank 28 spends closing rows for requests
+dram_bank_28_close_time 550
+
+#Number of DRAM bank 28 read requests
+dram_bank_28_read_requests 136
+
+#Number of DRAM bank 28 write requests
+dram_bank_28_write_requests 0
+
+#Number of cyclesDRAM bank 28 read requests wait in the queue
+dram_bank_28_read_queue_time 18446744073708527925
+
+#Number of cyclesDRAM bank 28 write requests wait in the queue
+dram_bank_28_write_queue_time 0
+
+#Total number of cycles of DRAM bank 28 read requests
+dram_bank_28_read_total_time 10647
+
+#Total number of cycles of DRAM bank 28 write requests
+dram_bank_28_write_total_time 0
+
+#Number of DRAM bank 28 row buffer hits
+dram_bank_28_row_buffer_hits 124
+
+#Number of DRAM bank 28 row buffer misses
+dram_bank_28_row_buffer_misses 12
+
+#Number of DRAM bank 28 opens
+dram_bank_28_num_opens 12
+
+#Number of DRAM bank 28 accesses
+dram_bank_28_num_accesses 136
+
+#Number of DRAM bank 28 closes
+dram_bank_28_num_closes 11
+
+#Number of DRAM bank 28 read after read (RAR) hazards
+dram_bank_28_num_read_after_read 0
+
+#Number of DRAM bank 28 read after write (RAW) hazards
+dram_bank_28_num_read_after_write 0
+
+#Number of DRAM bank 28 write after read (WAR) hazards
+dram_bank_28_num_write_after_read 0
+
+#Number of DRAM bank 28 write after write (WAW) hazards
+dram_bank_28_num_write_after_write 0
+
+#Number of cycles DRAM bank 28 requests wait for lower priority requests
+dram_bank_28_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 28 requests wait for same priority requests
+dram_bank_28_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 28 requests wait for higher priority requests
+dram_bank_28_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 29 spend in the queue
+dram_bank_29_queue_time 18446744073708690423
+
+#Number of cycles DRAM bank 29 spends opening rows for requests
+dram_bank_29_open_time 300
+
+#Number of cycles DRAM bank 29 spends accessing rows for requests
+dram_bank_29_access_time 0
+
+#Number of cycles DRAM bank 29 spends closing rows for requests
+dram_bank_29_close_time 250
+
+#Number of DRAM bank 29 read requests
+dram_bank_29_read_requests 182
+
+#Number of DRAM bank 29 write requests
+dram_bank_29_write_requests 0
+
+#Number of cyclesDRAM bank 29 read requests wait in the queue
+dram_bank_29_read_queue_time 18446744073708690423
+
+#Number of cyclesDRAM bank 29 write requests wait in the queue
+dram_bank_29_write_queue_time 0
+
+#Total number of cycles of DRAM bank 29 read requests
+dram_bank_29_read_total_time 13232
+
+#Total number of cycles of DRAM bank 29 write requests
+dram_bank_29_write_total_time 0
+
+#Number of DRAM bank 29 row buffer hits
+dram_bank_29_row_buffer_hits 176
+
+#Number of DRAM bank 29 row buffer misses
+dram_bank_29_row_buffer_misses 6
+
+#Number of DRAM bank 29 opens
+dram_bank_29_num_opens 6
+
+#Number of DRAM bank 29 accesses
+dram_bank_29_num_accesses 182
+
+#Number of DRAM bank 29 closes
+dram_bank_29_num_closes 5
+
+#Number of DRAM bank 29 read after read (RAR) hazards
+dram_bank_29_num_read_after_read 0
+
+#Number of DRAM bank 29 read after write (RAW) hazards
+dram_bank_29_num_read_after_write 0
+
+#Number of DRAM bank 29 write after read (WAR) hazards
+dram_bank_29_num_write_after_read 0
+
+#Number of DRAM bank 29 write after write (WAW) hazards
+dram_bank_29_num_write_after_write 0
+
+#Number of cycles DRAM bank 29 requests wait for lower priority requests
+dram_bank_29_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 29 requests wait for same priority requests
+dram_bank_29_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 29 requests wait for higher priority requests
+dram_bank_29_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 30 spend in the queue
+dram_bank_30_queue_time 18446744073680104757
+
+#Number of cycles DRAM bank 30 spends opening rows for requests
+dram_bank_30_open_time 350
+
+#Number of cycles DRAM bank 30 spends accessing rows for requests
+dram_bank_30_access_time 0
+
+#Number of cycles DRAM bank 30 spends closing rows for requests
+dram_bank_30_close_time 300
+
+#Number of DRAM bank 30 read requests
+dram_bank_30_read_requests 195
+
+#Number of DRAM bank 30 write requests
+dram_bank_30_write_requests 0
+
+#Number of cyclesDRAM bank 30 read requests wait in the queue
+dram_bank_30_read_queue_time 18446744073680104757
+
+#Number of cyclesDRAM bank 30 write requests wait in the queue
+dram_bank_30_write_queue_time 0
+
+#Total number of cycles of DRAM bank 30 read requests
+dram_bank_30_read_total_time 14567
+
+#Total number of cycles of DRAM bank 30 write requests
+dram_bank_30_write_total_time 0
+
+#Number of DRAM bank 30 row buffer hits
+dram_bank_30_row_buffer_hits 188
+
+#Number of DRAM bank 30 row buffer misses
+dram_bank_30_row_buffer_misses 7
+
+#Number of DRAM bank 30 opens
+dram_bank_30_num_opens 7
+
+#Number of DRAM bank 30 accesses
+dram_bank_30_num_accesses 195
+
+#Number of DRAM bank 30 closes
+dram_bank_30_num_closes 6
+
+#Number of DRAM bank 30 read after read (RAR) hazards
+dram_bank_30_num_read_after_read 0
+
+#Number of DRAM bank 30 read after write (RAW) hazards
+dram_bank_30_num_read_after_write 0
+
+#Number of DRAM bank 30 write after read (WAR) hazards
+dram_bank_30_num_write_after_read 0
+
+#Number of DRAM bank 30 write after write (WAW) hazards
+dram_bank_30_num_write_after_write 0
+
+#Number of cycles DRAM bank 30 requests wait for lower priority requests
+dram_bank_30_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 30 requests wait for same priority requests
+dram_bank_30_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 30 requests wait for higher priority requests
+dram_bank_30_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 31 spend in the queue
+dram_bank_31_queue_time 18446744073688954718
+
+#Number of cycles DRAM bank 31 spends opening rows for requests
+dram_bank_31_open_time 450
+
+#Number of cycles DRAM bank 31 spends accessing rows for requests
+dram_bank_31_access_time 0
+
+#Number of cycles DRAM bank 31 spends closing rows for requests
+dram_bank_31_close_time 400
+
+#Number of DRAM bank 31 read requests
+dram_bank_31_read_requests 136
+
+#Number of DRAM bank 31 write requests
+dram_bank_31_write_requests 0
+
+#Number of cyclesDRAM bank 31 read requests wait in the queue
+dram_bank_31_read_queue_time 18446744073688954718
+
+#Number of cyclesDRAM bank 31 write requests wait in the queue
+dram_bank_31_write_queue_time 0
+
+#Total number of cycles of DRAM bank 31 read requests
+dram_bank_31_read_total_time 11194
+
+#Total number of cycles of DRAM bank 31 write requests
+dram_bank_31_write_total_time 0
+
+#Number of DRAM bank 31 row buffer hits
+dram_bank_31_row_buffer_hits 127
+
+#Number of DRAM bank 31 row buffer misses
+dram_bank_31_row_buffer_misses 9
+
+#Number of DRAM bank 31 opens
+dram_bank_31_num_opens 9
+
+#Number of DRAM bank 31 accesses
+dram_bank_31_num_accesses 136
+
+#Number of DRAM bank 31 closes
+dram_bank_31_num_closes 8
+
+#Number of DRAM bank 31 read after read (RAR) hazards
+dram_bank_31_num_read_after_read 0
+
+#Number of DRAM bank 31 read after write (RAW) hazards
+dram_bank_31_num_read_after_write 0
+
+#Number of DRAM bank 31 write after read (WAR) hazards
+dram_bank_31_num_write_after_read 0
+
+#Number of DRAM bank 31 write after write (WAW) hazards
+dram_bank_31_num_write_after_write 0
+
+#Number of cycles DRAM bank 31 requests wait for lower priority requests
+dram_bank_31_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 31 requests wait for same priority requests
+dram_bank_31_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 31 requests wait for higher priority requests
+dram_bank_31_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 32 spend in the queue
+dram_bank_32_queue_time 0
+
+#Number of cycles DRAM bank 32 spends opening rows for requests
+dram_bank_32_open_time 300
+
+#Number of cycles DRAM bank 32 spends accessing rows for requests
+dram_bank_32_access_time 0
+
+#Number of cycles DRAM bank 32 spends closing rows for requests
+dram_bank_32_close_time 250
+
+#Number of DRAM bank 32 read requests
+dram_bank_32_read_requests 78
+
+#Number of DRAM bank 32 write requests
+dram_bank_32_write_requests 0
+
+#Number of cyclesDRAM bank 32 read requests wait in the queue
+dram_bank_32_read_queue_time 0
+
+#Number of cyclesDRAM bank 32 write requests wait in the queue
+dram_bank_32_write_queue_time 0
+
+#Total number of cycles of DRAM bank 32 read requests
+dram_bank_32_read_total_time 6065
+
+#Total number of cycles of DRAM bank 32 write requests
+dram_bank_32_write_total_time 0
+
+#Number of DRAM bank 32 row buffer hits
+dram_bank_32_row_buffer_hits 72
+
+#Number of DRAM bank 32 row buffer misses
+dram_bank_32_row_buffer_misses 6
+
+#Number of DRAM bank 32 opens
+dram_bank_32_num_opens 6
+
+#Number of DRAM bank 32 accesses
+dram_bank_32_num_accesses 78
+
+#Number of DRAM bank 32 closes
+dram_bank_32_num_closes 5
+
+#Number of DRAM bank 32 read after read (RAR) hazards
+dram_bank_32_num_read_after_read 0
+
+#Number of DRAM bank 32 read after write (RAW) hazards
+dram_bank_32_num_read_after_write 0
+
+#Number of DRAM bank 32 write after read (WAR) hazards
+dram_bank_32_num_write_after_read 0
+
+#Number of DRAM bank 32 write after write (WAW) hazards
+dram_bank_32_num_write_after_write 0
+
+#Number of cycles DRAM bank 32 requests wait for lower priority requests
+dram_bank_32_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 32 requests wait for same priority requests
+dram_bank_32_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 32 requests wait for higher priority requests
+dram_bank_32_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 33 spend in the queue
+dram_bank_33_queue_time 18446744073672535492
+
+#Number of cycles DRAM bank 33 spends opening rows for requests
+dram_bank_33_open_time 400
+
+#Number of cycles DRAM bank 33 spends accessing rows for requests
+dram_bank_33_access_time 0
+
+#Number of cycles DRAM bank 33 spends closing rows for requests
+dram_bank_33_close_time 350
+
+#Number of DRAM bank 33 read requests
+dram_bank_33_read_requests 120
+
+#Number of DRAM bank 33 write requests
+dram_bank_33_write_requests 0
+
+#Number of cyclesDRAM bank 33 read requests wait in the queue
+dram_bank_33_read_queue_time 18446744073672535492
+
+#Number of cyclesDRAM bank 33 write requests wait in the queue
+dram_bank_33_write_queue_time 0
+
+#Total number of cycles of DRAM bank 33 read requests
+dram_bank_33_read_total_time 9961
+
+#Total number of cycles of DRAM bank 33 write requests
+dram_bank_33_write_total_time 0
+
+#Number of DRAM bank 33 row buffer hits
+dram_bank_33_row_buffer_hits 112
+
+#Number of DRAM bank 33 row buffer misses
+dram_bank_33_row_buffer_misses 8
+
+#Number of DRAM bank 33 opens
+dram_bank_33_num_opens 8
+
+#Number of DRAM bank 33 accesses
+dram_bank_33_num_accesses 120
+
+#Number of DRAM bank 33 closes
+dram_bank_33_num_closes 7
+
+#Number of DRAM bank 33 read after read (RAR) hazards
+dram_bank_33_num_read_after_read 0
+
+#Number of DRAM bank 33 read after write (RAW) hazards
+dram_bank_33_num_read_after_write 0
+
+#Number of DRAM bank 33 write after read (WAR) hazards
+dram_bank_33_num_write_after_read 0
+
+#Number of DRAM bank 33 write after write (WAW) hazards
+dram_bank_33_num_write_after_write 0
+
+#Number of cycles DRAM bank 33 requests wait for lower priority requests
+dram_bank_33_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 33 requests wait for same priority requests
+dram_bank_33_wait_same_priority_time 100
+
+#Number of cycles DRAM bank 33 requests wait for higher priority requests
+dram_bank_33_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 34 spend in the queue
+dram_bank_34_queue_time 18446744073670407484
+
+#Number of cycles DRAM bank 34 spends opening rows for requests
+dram_bank_34_open_time 700
+
+#Number of cycles DRAM bank 34 spends accessing rows for requests
+dram_bank_34_access_time 0
+
+#Number of cycles DRAM bank 34 spends closing rows for requests
+dram_bank_34_close_time 650
+
+#Number of DRAM bank 34 read requests
+dram_bank_34_read_requests 170
+
+#Number of DRAM bank 34 write requests
+dram_bank_34_write_requests 0
+
+#Number of cyclesDRAM bank 34 read requests wait in the queue
+dram_bank_34_read_queue_time 18446744073670407484
+
+#Number of cyclesDRAM bank 34 write requests wait in the queue
+dram_bank_34_write_queue_time 0
+
+#Total number of cycles of DRAM bank 34 read requests
+dram_bank_34_read_total_time 13142
+
+#Total number of cycles of DRAM bank 34 write requests
+dram_bank_34_write_total_time 0
+
+#Number of DRAM bank 34 row buffer hits
+dram_bank_34_row_buffer_hits 156
+
+#Number of DRAM bank 34 row buffer misses
+dram_bank_34_row_buffer_misses 14
+
+#Number of DRAM bank 34 opens
+dram_bank_34_num_opens 14
+
+#Number of DRAM bank 34 accesses
+dram_bank_34_num_accesses 170
+
+#Number of DRAM bank 34 closes
+dram_bank_34_num_closes 13
+
+#Number of DRAM bank 34 read after read (RAR) hazards
+dram_bank_34_num_read_after_read 0
+
+#Number of DRAM bank 34 read after write (RAW) hazards
+dram_bank_34_num_read_after_write 0
+
+#Number of DRAM bank 34 write after read (WAR) hazards
+dram_bank_34_num_write_after_read 0
+
+#Number of DRAM bank 34 write after write (WAW) hazards
+dram_bank_34_num_write_after_write 0
+
+#Number of cycles DRAM bank 34 requests wait for lower priority requests
+dram_bank_34_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 34 requests wait for same priority requests
+dram_bank_34_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 34 requests wait for higher priority requests
+dram_bank_34_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 35 spend in the queue
+dram_bank_35_queue_time 18446744073670169932
+
+#Number of cycles DRAM bank 35 spends opening rows for requests
+dram_bank_35_open_time 550
+
+#Number of cycles DRAM bank 35 spends accessing rows for requests
+dram_bank_35_access_time 0
+
+#Number of cycles DRAM bank 35 spends closing rows for requests
+dram_bank_35_close_time 500
+
+#Number of DRAM bank 35 read requests
+dram_bank_35_read_requests 179
+
+#Number of DRAM bank 35 write requests
+dram_bank_35_write_requests 0
+
+#Number of cyclesDRAM bank 35 read requests wait in the queue
+dram_bank_35_read_queue_time 18446744073670169932
+
+#Number of cyclesDRAM bank 35 write requests wait in the queue
+dram_bank_35_write_queue_time 0
+
+#Total number of cycles of DRAM bank 35 read requests
+dram_bank_35_read_total_time 13808
+
+#Total number of cycles of DRAM bank 35 write requests
+dram_bank_35_write_total_time 0
+
+#Number of DRAM bank 35 row buffer hits
+dram_bank_35_row_buffer_hits 168
+
+#Number of DRAM bank 35 row buffer misses
+dram_bank_35_row_buffer_misses 11
+
+#Number of DRAM bank 35 opens
+dram_bank_35_num_opens 11
+
+#Number of DRAM bank 35 accesses
+dram_bank_35_num_accesses 179
+
+#Number of DRAM bank 35 closes
+dram_bank_35_num_closes 10
+
+#Number of DRAM bank 35 read after read (RAR) hazards
+dram_bank_35_num_read_after_read 0
+
+#Number of DRAM bank 35 read after write (RAW) hazards
+dram_bank_35_num_read_after_write 0
+
+#Number of DRAM bank 35 write after read (WAR) hazards
+dram_bank_35_num_write_after_read 0
+
+#Number of DRAM bank 35 write after write (WAW) hazards
+dram_bank_35_num_write_after_write 0
+
+#Number of cycles DRAM bank 35 requests wait for lower priority requests
+dram_bank_35_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 35 requests wait for same priority requests
+dram_bank_35_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 35 requests wait for higher priority requests
+dram_bank_35_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 36 spend in the queue
+dram_bank_36_queue_time 18446744073708348347
+
+#Number of cycles DRAM bank 36 spends opening rows for requests
+dram_bank_36_open_time 250
+
+#Number of cycles DRAM bank 36 spends accessing rows for requests
+dram_bank_36_access_time 0
+
+#Number of cycles DRAM bank 36 spends closing rows for requests
+dram_bank_36_close_time 200
+
+#Number of DRAM bank 36 read requests
+dram_bank_36_read_requests 79
+
+#Number of DRAM bank 36 write requests
+dram_bank_36_write_requests 0
+
+#Number of cyclesDRAM bank 36 read requests wait in the queue
+dram_bank_36_read_queue_time 18446744073708348347
+
+#Number of cyclesDRAM bank 36 write requests wait in the queue
+dram_bank_36_write_queue_time 0
+
+#Total number of cycles of DRAM bank 36 read requests
+dram_bank_36_read_total_time 6197
+
+#Total number of cycles of DRAM bank 36 write requests
+dram_bank_36_write_total_time 0
+
+#Number of DRAM bank 36 row buffer hits
+dram_bank_36_row_buffer_hits 74
+
+#Number of DRAM bank 36 row buffer misses
+dram_bank_36_row_buffer_misses 5
+
+#Number of DRAM bank 36 opens
+dram_bank_36_num_opens 5
+
+#Number of DRAM bank 36 accesses
+dram_bank_36_num_accesses 79
+
+#Number of DRAM bank 36 closes
+dram_bank_36_num_closes 4
+
+#Number of DRAM bank 36 read after read (RAR) hazards
+dram_bank_36_num_read_after_read 0
+
+#Number of DRAM bank 36 read after write (RAW) hazards
+dram_bank_36_num_read_after_write 0
+
+#Number of DRAM bank 36 write after read (WAR) hazards
+dram_bank_36_num_write_after_read 0
+
+#Number of DRAM bank 36 write after write (WAW) hazards
+dram_bank_36_num_write_after_write 0
+
+#Number of cycles DRAM bank 36 requests wait for lower priority requests
+dram_bank_36_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 36 requests wait for same priority requests
+dram_bank_36_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 36 requests wait for higher priority requests
+dram_bank_36_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 37 spend in the queue
+dram_bank_37_queue_time 18446744073707742659
+
+#Number of cycles DRAM bank 37 spends opening rows for requests
+dram_bank_37_open_time 400
+
+#Number of cycles DRAM bank 37 spends accessing rows for requests
+dram_bank_37_access_time 0
+
+#Number of cycles DRAM bank 37 spends closing rows for requests
+dram_bank_37_close_time 350
+
+#Number of DRAM bank 37 read requests
+dram_bank_37_read_requests 80
+
+#Number of DRAM bank 37 write requests
+dram_bank_37_write_requests 0
+
+#Number of cyclesDRAM bank 37 read requests wait in the queue
+dram_bank_37_read_queue_time 18446744073707742659
+
+#Number of cyclesDRAM bank 37 write requests wait in the queue
+dram_bank_37_write_queue_time 0
+
+#Total number of cycles of DRAM bank 37 read requests
+dram_bank_37_read_total_time 6542
+
+#Total number of cycles of DRAM bank 37 write requests
+dram_bank_37_write_total_time 0
+
+#Number of DRAM bank 37 row buffer hits
+dram_bank_37_row_buffer_hits 72
+
+#Number of DRAM bank 37 row buffer misses
+dram_bank_37_row_buffer_misses 8
+
+#Number of DRAM bank 37 opens
+dram_bank_37_num_opens 8
+
+#Number of DRAM bank 37 accesses
+dram_bank_37_num_accesses 80
+
+#Number of DRAM bank 37 closes
+dram_bank_37_num_closes 7
+
+#Number of DRAM bank 37 read after read (RAR) hazards
+dram_bank_37_num_read_after_read 0
+
+#Number of DRAM bank 37 read after write (RAW) hazards
+dram_bank_37_num_read_after_write 0
+
+#Number of DRAM bank 37 write after read (WAR) hazards
+dram_bank_37_num_write_after_read 0
+
+#Number of DRAM bank 37 write after write (WAW) hazards
+dram_bank_37_num_write_after_write 0
+
+#Number of cycles DRAM bank 37 requests wait for lower priority requests
+dram_bank_37_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 37 requests wait for same priority requests
+dram_bank_37_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 37 requests wait for higher priority requests
+dram_bank_37_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 38 spend in the queue
+dram_bank_38_queue_time 18446744073690663607
+
+#Number of cycles DRAM bank 38 spends opening rows for requests
+dram_bank_38_open_time 450
+
+#Number of cycles DRAM bank 38 spends accessing rows for requests
+dram_bank_38_access_time 0
+
+#Number of cycles DRAM bank 38 spends closing rows for requests
+dram_bank_38_close_time 400
+
+#Number of DRAM bank 38 read requests
+dram_bank_38_read_requests 117
+
+#Number of DRAM bank 38 write requests
+dram_bank_38_write_requests 0
+
+#Number of cyclesDRAM bank 38 read requests wait in the queue
+dram_bank_38_read_queue_time 18446744073690663607
+
+#Number of cyclesDRAM bank 38 write requests wait in the queue
+dram_bank_38_write_queue_time 0
+
+#Total number of cycles of DRAM bank 38 read requests
+dram_bank_38_read_total_time 10591
+
+#Total number of cycles of DRAM bank 38 write requests
+dram_bank_38_write_total_time 0
+
+#Number of DRAM bank 38 row buffer hits
+dram_bank_38_row_buffer_hits 108
+
+#Number of DRAM bank 38 row buffer misses
+dram_bank_38_row_buffer_misses 9
+
+#Number of DRAM bank 38 opens
+dram_bank_38_num_opens 9
+
+#Number of DRAM bank 38 accesses
+dram_bank_38_num_accesses 117
+
+#Number of DRAM bank 38 closes
+dram_bank_38_num_closes 8
+
+#Number of DRAM bank 38 read after read (RAR) hazards
+dram_bank_38_num_read_after_read 0
+
+#Number of DRAM bank 38 read after write (RAW) hazards
+dram_bank_38_num_read_after_write 0
+
+#Number of DRAM bank 38 write after read (WAR) hazards
+dram_bank_38_num_write_after_read 0
+
+#Number of DRAM bank 38 write after write (WAW) hazards
+dram_bank_38_num_write_after_write 0
+
+#Number of cycles DRAM bank 38 requests wait for lower priority requests
+dram_bank_38_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 38 requests wait for same priority requests
+dram_bank_38_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 38 requests wait for higher priority requests
+dram_bank_38_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 39 spend in the queue
+dram_bank_39_queue_time 18446744073709524355
+
+#Number of cycles DRAM bank 39 spends opening rows for requests
+dram_bank_39_open_time 300
+
+#Number of cycles DRAM bank 39 spends accessing rows for requests
+dram_bank_39_access_time 0
+
+#Number of cycles DRAM bank 39 spends closing rows for requests
+dram_bank_39_close_time 250
+
+#Number of DRAM bank 39 read requests
+dram_bank_39_read_requests 55
+
+#Number of DRAM bank 39 write requests
+dram_bank_39_write_requests 0
+
+#Number of cyclesDRAM bank 39 read requests wait in the queue
+dram_bank_39_read_queue_time 18446744073709524355
+
+#Number of cyclesDRAM bank 39 write requests wait in the queue
+dram_bank_39_write_queue_time 0
+
+#Total number of cycles of DRAM bank 39 read requests
+dram_bank_39_read_total_time 4689
+
+#Total number of cycles of DRAM bank 39 write requests
+dram_bank_39_write_total_time 0
+
+#Number of DRAM bank 39 row buffer hits
+dram_bank_39_row_buffer_hits 49
+
+#Number of DRAM bank 39 row buffer misses
+dram_bank_39_row_buffer_misses 6
+
+#Number of DRAM bank 39 opens
+dram_bank_39_num_opens 6
+
+#Number of DRAM bank 39 accesses
+dram_bank_39_num_accesses 55
+
+#Number of DRAM bank 39 closes
+dram_bank_39_num_closes 5
+
+#Number of DRAM bank 39 read after read (RAR) hazards
+dram_bank_39_num_read_after_read 0
+
+#Number of DRAM bank 39 read after write (RAW) hazards
+dram_bank_39_num_read_after_write 0
+
+#Number of DRAM bank 39 write after read (WAR) hazards
+dram_bank_39_num_write_after_read 0
+
+#Number of DRAM bank 39 write after write (WAW) hazards
+dram_bank_39_num_write_after_write 0
+
+#Number of cycles DRAM bank 39 requests wait for lower priority requests
+dram_bank_39_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 39 requests wait for same priority requests
+dram_bank_39_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 39 requests wait for higher priority requests
+dram_bank_39_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 40 spend in the queue
+dram_bank_40_queue_time 0
+
+#Number of cycles DRAM bank 40 spends opening rows for requests
+dram_bank_40_open_time 350
+
+#Number of cycles DRAM bank 40 spends accessing rows for requests
+dram_bank_40_access_time 0
+
+#Number of cycles DRAM bank 40 spends closing rows for requests
+dram_bank_40_close_time 300
+
+#Number of DRAM bank 40 read requests
+dram_bank_40_read_requests 56
+
+#Number of DRAM bank 40 write requests
+dram_bank_40_write_requests 0
+
+#Number of cyclesDRAM bank 40 read requests wait in the queue
+dram_bank_40_read_queue_time 0
+
+#Number of cyclesDRAM bank 40 write requests wait in the queue
+dram_bank_40_write_queue_time 0
+
+#Total number of cycles of DRAM bank 40 read requests
+dram_bank_40_read_total_time 4664
+
+#Total number of cycles of DRAM bank 40 write requests
+dram_bank_40_write_total_time 0
+
+#Number of DRAM bank 40 row buffer hits
+dram_bank_40_row_buffer_hits 49
+
+#Number of DRAM bank 40 row buffer misses
+dram_bank_40_row_buffer_misses 7
+
+#Number of DRAM bank 40 opens
+dram_bank_40_num_opens 7
+
+#Number of DRAM bank 40 accesses
+dram_bank_40_num_accesses 56
+
+#Number of DRAM bank 40 closes
+dram_bank_40_num_closes 6
+
+#Number of DRAM bank 40 read after read (RAR) hazards
+dram_bank_40_num_read_after_read 0
+
+#Number of DRAM bank 40 read after write (RAW) hazards
+dram_bank_40_num_read_after_write 0
+
+#Number of DRAM bank 40 write after read (WAR) hazards
+dram_bank_40_num_write_after_read 0
+
+#Number of DRAM bank 40 write after write (WAW) hazards
+dram_bank_40_num_write_after_write 0
+
+#Number of cycles DRAM bank 40 requests wait for lower priority requests
+dram_bank_40_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 40 requests wait for same priority requests
+dram_bank_40_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 40 requests wait for higher priority requests
+dram_bank_40_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 41 spend in the queue
+dram_bank_41_queue_time 18446744073709468710
+
+#Number of cycles DRAM bank 41 spends opening rows for requests
+dram_bank_41_open_time 300
+
+#Number of cycles DRAM bank 41 spends accessing rows for requests
+dram_bank_41_access_time 0
+
+#Number of cycles DRAM bank 41 spends closing rows for requests
+dram_bank_41_close_time 250
+
+#Number of DRAM bank 41 read requests
+dram_bank_41_read_requests 51
+
+#Number of DRAM bank 41 write requests
+dram_bank_41_write_requests 0
+
+#Number of cyclesDRAM bank 41 read requests wait in the queue
+dram_bank_41_read_queue_time 18446744073709468710
+
+#Number of cyclesDRAM bank 41 write requests wait in the queue
+dram_bank_41_write_queue_time 0
+
+#Total number of cycles of DRAM bank 41 read requests
+dram_bank_41_read_total_time 4351
+
+#Total number of cycles of DRAM bank 41 write requests
+dram_bank_41_write_total_time 0
+
+#Number of DRAM bank 41 row buffer hits
+dram_bank_41_row_buffer_hits 45
+
+#Number of DRAM bank 41 row buffer misses
+dram_bank_41_row_buffer_misses 6
+
+#Number of DRAM bank 41 opens
+dram_bank_41_num_opens 6
+
+#Number of DRAM bank 41 accesses
+dram_bank_41_num_accesses 51
+
+#Number of DRAM bank 41 closes
+dram_bank_41_num_closes 5
+
+#Number of DRAM bank 41 read after read (RAR) hazards
+dram_bank_41_num_read_after_read 0
+
+#Number of DRAM bank 41 read after write (RAW) hazards
+dram_bank_41_num_read_after_write 0
+
+#Number of DRAM bank 41 write after read (WAR) hazards
+dram_bank_41_num_write_after_read 0
+
+#Number of DRAM bank 41 write after write (WAW) hazards
+dram_bank_41_num_write_after_write 0
+
+#Number of cycles DRAM bank 41 requests wait for lower priority requests
+dram_bank_41_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 41 requests wait for same priority requests
+dram_bank_41_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 41 requests wait for higher priority requests
+dram_bank_41_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 42 spend in the queue
+dram_bank_42_queue_time 18446744073708606617
+
+#Number of cycles DRAM bank 42 spends opening rows for requests
+dram_bank_42_open_time 300
+
+#Number of cycles DRAM bank 42 spends accessing rows for requests
+dram_bank_42_access_time 0
+
+#Number of cycles DRAM bank 42 spends closing rows for requests
+dram_bank_42_close_time 250
+
+#Number of DRAM bank 42 read requests
+dram_bank_42_read_requests 90
+
+#Number of DRAM bank 42 write requests
+dram_bank_42_write_requests 0
+
+#Number of cyclesDRAM bank 42 read requests wait in the queue
+dram_bank_42_read_queue_time 18446744073708606617
+
+#Number of cyclesDRAM bank 42 write requests wait in the queue
+dram_bank_42_write_queue_time 0
+
+#Total number of cycles of DRAM bank 42 read requests
+dram_bank_42_read_total_time 7830
+
+#Total number of cycles of DRAM bank 42 write requests
+dram_bank_42_write_total_time 0
+
+#Number of DRAM bank 42 row buffer hits
+dram_bank_42_row_buffer_hits 84
+
+#Number of DRAM bank 42 row buffer misses
+dram_bank_42_row_buffer_misses 6
+
+#Number of DRAM bank 42 opens
+dram_bank_42_num_opens 6
+
+#Number of DRAM bank 42 accesses
+dram_bank_42_num_accesses 90
+
+#Number of DRAM bank 42 closes
+dram_bank_42_num_closes 5
+
+#Number of DRAM bank 42 read after read (RAR) hazards
+dram_bank_42_num_read_after_read 0
+
+#Number of DRAM bank 42 read after write (RAW) hazards
+dram_bank_42_num_read_after_write 0
+
+#Number of DRAM bank 42 write after read (WAR) hazards
+dram_bank_42_num_write_after_read 0
+
+#Number of DRAM bank 42 write after write (WAW) hazards
+dram_bank_42_num_write_after_write 0
+
+#Number of cycles DRAM bank 42 requests wait for lower priority requests
+dram_bank_42_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 42 requests wait for same priority requests
+dram_bank_42_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 42 requests wait for higher priority requests
+dram_bank_42_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 43 spend in the queue
+dram_bank_43_queue_time 18446744073708940032
+
+#Number of cycles DRAM bank 43 spends opening rows for requests
+dram_bank_43_open_time 350
+
+#Number of cycles DRAM bank 43 spends accessing rows for requests
+dram_bank_43_access_time 0
+
+#Number of cycles DRAM bank 43 spends closing rows for requests
+dram_bank_43_close_time 300
+
+#Number of DRAM bank 43 read requests
+dram_bank_43_read_requests 69
+
+#Number of DRAM bank 43 write requests
+dram_bank_43_write_requests 0
+
+#Number of cyclesDRAM bank 43 read requests wait in the queue
+dram_bank_43_read_queue_time 18446744073708940032
+
+#Number of cyclesDRAM bank 43 write requests wait in the queue
+dram_bank_43_write_queue_time 0
+
+#Total number of cycles of DRAM bank 43 read requests
+dram_bank_43_read_total_time 5532
+
+#Total number of cycles of DRAM bank 43 write requests
+dram_bank_43_write_total_time 0
+
+#Number of DRAM bank 43 row buffer hits
+dram_bank_43_row_buffer_hits 62
+
+#Number of DRAM bank 43 row buffer misses
+dram_bank_43_row_buffer_misses 7
+
+#Number of DRAM bank 43 opens
+dram_bank_43_num_opens 7
+
+#Number of DRAM bank 43 accesses
+dram_bank_43_num_accesses 69
+
+#Number of DRAM bank 43 closes
+dram_bank_43_num_closes 6
+
+#Number of DRAM bank 43 read after read (RAR) hazards
+dram_bank_43_num_read_after_read 0
+
+#Number of DRAM bank 43 read after write (RAW) hazards
+dram_bank_43_num_read_after_write 0
+
+#Number of DRAM bank 43 write after read (WAR) hazards
+dram_bank_43_num_write_after_read 0
+
+#Number of DRAM bank 43 write after write (WAW) hazards
+dram_bank_43_num_write_after_write 0
+
+#Number of cycles DRAM bank 43 requests wait for lower priority requests
+dram_bank_43_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 43 requests wait for same priority requests
+dram_bank_43_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 43 requests wait for higher priority requests
+dram_bank_43_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 44 spend in the queue
+dram_bank_44_queue_time 18446744073706351523
+
+#Number of cycles DRAM bank 44 spends opening rows for requests
+dram_bank_44_open_time 400
+
+#Number of cycles DRAM bank 44 spends accessing rows for requests
+dram_bank_44_access_time 0
+
+#Number of cycles DRAM bank 44 spends closing rows for requests
+dram_bank_44_close_time 350
+
+#Number of DRAM bank 44 read requests
+dram_bank_44_read_requests 101
+
+#Number of DRAM bank 44 write requests
+dram_bank_44_write_requests 0
+
+#Number of cyclesDRAM bank 44 read requests wait in the queue
+dram_bank_44_read_queue_time 18446744073706351523
+
+#Number of cyclesDRAM bank 44 write requests wait in the queue
+dram_bank_44_write_queue_time 0
+
+#Total number of cycles of DRAM bank 44 read requests
+dram_bank_44_read_total_time 8062
+
+#Total number of cycles of DRAM bank 44 write requests
+dram_bank_44_write_total_time 0
+
+#Number of DRAM bank 44 row buffer hits
+dram_bank_44_row_buffer_hits 93
+
+#Number of DRAM bank 44 row buffer misses
+dram_bank_44_row_buffer_misses 8
+
+#Number of DRAM bank 44 opens
+dram_bank_44_num_opens 8
+
+#Number of DRAM bank 44 accesses
+dram_bank_44_num_accesses 101
+
+#Number of DRAM bank 44 closes
+dram_bank_44_num_closes 7
+
+#Number of DRAM bank 44 read after read (RAR) hazards
+dram_bank_44_num_read_after_read 0
+
+#Number of DRAM bank 44 read after write (RAW) hazards
+dram_bank_44_num_read_after_write 0
+
+#Number of DRAM bank 44 write after read (WAR) hazards
+dram_bank_44_num_write_after_read 0
+
+#Number of DRAM bank 44 write after write (WAW) hazards
+dram_bank_44_num_write_after_write 0
+
+#Number of cycles DRAM bank 44 requests wait for lower priority requests
+dram_bank_44_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 44 requests wait for same priority requests
+dram_bank_44_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 44 requests wait for higher priority requests
+dram_bank_44_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 45 spend in the queue
+dram_bank_45_queue_time 18446744073709412078
+
+#Number of cycles DRAM bank 45 spends opening rows for requests
+dram_bank_45_open_time 350
+
+#Number of cycles DRAM bank 45 spends accessing rows for requests
+dram_bank_45_access_time 0
+
+#Number of cycles DRAM bank 45 spends closing rows for requests
+dram_bank_45_close_time 300
+
+#Number of DRAM bank 45 read requests
+dram_bank_45_read_requests 98
+
+#Number of DRAM bank 45 write requests
+dram_bank_45_write_requests 0
+
+#Number of cyclesDRAM bank 45 read requests wait in the queue
+dram_bank_45_read_queue_time 18446744073709412078
+
+#Number of cyclesDRAM bank 45 write requests wait in the queue
+dram_bank_45_write_queue_time 0
+
+#Total number of cycles of DRAM bank 45 read requests
+dram_bank_45_read_total_time 7408
+
+#Total number of cycles of DRAM bank 45 write requests
+dram_bank_45_write_total_time 0
+
+#Number of DRAM bank 45 row buffer hits
+dram_bank_45_row_buffer_hits 91
+
+#Number of DRAM bank 45 row buffer misses
+dram_bank_45_row_buffer_misses 7
+
+#Number of DRAM bank 45 opens
+dram_bank_45_num_opens 7
+
+#Number of DRAM bank 45 accesses
+dram_bank_45_num_accesses 98
+
+#Number of DRAM bank 45 closes
+dram_bank_45_num_closes 6
+
+#Number of DRAM bank 45 read after read (RAR) hazards
+dram_bank_45_num_read_after_read 0
+
+#Number of DRAM bank 45 read after write (RAW) hazards
+dram_bank_45_num_read_after_write 0
+
+#Number of DRAM bank 45 write after read (WAR) hazards
+dram_bank_45_num_write_after_read 0
+
+#Number of DRAM bank 45 write after write (WAW) hazards
+dram_bank_45_num_write_after_write 0
+
+#Number of cycles DRAM bank 45 requests wait for lower priority requests
+dram_bank_45_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 45 requests wait for same priority requests
+dram_bank_45_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 45 requests wait for higher priority requests
+dram_bank_45_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 46 spend in the queue
+dram_bank_46_queue_time 18446744073707628325
+
+#Number of cycles DRAM bank 46 spends opening rows for requests
+dram_bank_46_open_time 600
+
+#Number of cycles DRAM bank 46 spends accessing rows for requests
+dram_bank_46_access_time 0
+
+#Number of cycles DRAM bank 46 spends closing rows for requests
+dram_bank_46_close_time 550
+
+#Number of DRAM bank 46 read requests
+dram_bank_46_read_requests 114
+
+#Number of DRAM bank 46 write requests
+dram_bank_46_write_requests 0
+
+#Number of cyclesDRAM bank 46 read requests wait in the queue
+dram_bank_46_read_queue_time 18446744073707628325
+
+#Number of cyclesDRAM bank 46 write requests wait in the queue
+dram_bank_46_write_queue_time 0
+
+#Total number of cycles of DRAM bank 46 read requests
+dram_bank_46_read_total_time 9447
+
+#Total number of cycles of DRAM bank 46 write requests
+dram_bank_46_write_total_time 0
+
+#Number of DRAM bank 46 row buffer hits
+dram_bank_46_row_buffer_hits 102
+
+#Number of DRAM bank 46 row buffer misses
+dram_bank_46_row_buffer_misses 12
+
+#Number of DRAM bank 46 opens
+dram_bank_46_num_opens 12
+
+#Number of DRAM bank 46 accesses
+dram_bank_46_num_accesses 114
+
+#Number of DRAM bank 46 closes
+dram_bank_46_num_closes 11
+
+#Number of DRAM bank 46 read after read (RAR) hazards
+dram_bank_46_num_read_after_read 0
+
+#Number of DRAM bank 46 read after write (RAW) hazards
+dram_bank_46_num_read_after_write 0
+
+#Number of DRAM bank 46 write after read (WAR) hazards
+dram_bank_46_num_write_after_read 0
+
+#Number of DRAM bank 46 write after write (WAW) hazards
+dram_bank_46_num_write_after_write 0
+
+#Number of cycles DRAM bank 46 requests wait for lower priority requests
+dram_bank_46_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 46 requests wait for same priority requests
+dram_bank_46_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 46 requests wait for higher priority requests
+dram_bank_46_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 47 spend in the queue
+dram_bank_47_queue_time 18446744073707121490
+
+#Number of cycles DRAM bank 47 spends opening rows for requests
+dram_bank_47_open_time 4650
+
+#Number of cycles DRAM bank 47 spends accessing rows for requests
+dram_bank_47_access_time 0
+
+#Number of cycles DRAM bank 47 spends closing rows for requests
+dram_bank_47_close_time 4600
+
+#Number of DRAM bank 47 read requests
+dram_bank_47_read_requests 183
+
+#Number of DRAM bank 47 write requests
+dram_bank_47_write_requests 0
+
+#Number of cyclesDRAM bank 47 read requests wait in the queue
+dram_bank_47_read_queue_time 18446744073707121490
+
+#Number of cyclesDRAM bank 47 write requests wait in the queue
+dram_bank_47_write_queue_time 0
+
+#Total number of cycles of DRAM bank 47 read requests
+dram_bank_47_read_total_time 22775
+
+#Total number of cycles of DRAM bank 47 write requests
+dram_bank_47_write_total_time 0
+
+#Number of DRAM bank 47 row buffer hits
+dram_bank_47_row_buffer_hits 90
+
+#Number of DRAM bank 47 row buffer misses
+dram_bank_47_row_buffer_misses 93
+
+#Number of DRAM bank 47 opens
+dram_bank_47_num_opens 93
+
+#Number of DRAM bank 47 accesses
+dram_bank_47_num_accesses 183
+
+#Number of DRAM bank 47 closes
+dram_bank_47_num_closes 92
+
+#Number of DRAM bank 47 read after read (RAR) hazards
+dram_bank_47_num_read_after_read 0
+
+#Number of DRAM bank 47 read after write (RAW) hazards
+dram_bank_47_num_read_after_write 0
+
+#Number of DRAM bank 47 write after read (WAR) hazards
+dram_bank_47_num_write_after_read 0
+
+#Number of DRAM bank 47 write after write (WAW) hazards
+dram_bank_47_num_write_after_write 0
+
+#Number of cycles DRAM bank 47 requests wait for lower priority requests
+dram_bank_47_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 47 requests wait for same priority requests
+dram_bank_47_wait_same_priority_time 588
+
+#Number of cycles DRAM bank 47 requests wait for higher priority requests
+dram_bank_47_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 48 spend in the queue
+dram_bank_48_queue_time 18446744073708930989
+
+#Number of cycles DRAM bank 48 spends opening rows for requests
+dram_bank_48_open_time 1300
+
+#Number of cycles DRAM bank 48 spends accessing rows for requests
+dram_bank_48_access_time 0
+
+#Number of cycles DRAM bank 48 spends closing rows for requests
+dram_bank_48_close_time 1250
+
+#Number of DRAM bank 48 read requests
+dram_bank_48_read_requests 147
+
+#Number of DRAM bank 48 write requests
+dram_bank_48_write_requests 0
+
+#Number of cyclesDRAM bank 48 read requests wait in the queue
+dram_bank_48_read_queue_time 18446744073708930989
+
+#Number of cyclesDRAM bank 48 write requests wait in the queue
+dram_bank_48_write_queue_time 0
+
+#Total number of cycles of DRAM bank 48 read requests
+dram_bank_48_read_total_time 12582
+
+#Total number of cycles of DRAM bank 48 write requests
+dram_bank_48_write_total_time 0
+
+#Number of DRAM bank 48 row buffer hits
+dram_bank_48_row_buffer_hits 121
+
+#Number of DRAM bank 48 row buffer misses
+dram_bank_48_row_buffer_misses 26
+
+#Number of DRAM bank 48 opens
+dram_bank_48_num_opens 26
+
+#Number of DRAM bank 48 accesses
+dram_bank_48_num_accesses 147
+
+#Number of DRAM bank 48 closes
+dram_bank_48_num_closes 25
+
+#Number of DRAM bank 48 read after read (RAR) hazards
+dram_bank_48_num_read_after_read 0
+
+#Number of DRAM bank 48 read after write (RAW) hazards
+dram_bank_48_num_read_after_write 0
+
+#Number of DRAM bank 48 write after read (WAR) hazards
+dram_bank_48_num_write_after_read 0
+
+#Number of DRAM bank 48 write after write (WAW) hazards
+dram_bank_48_num_write_after_write 0
+
+#Number of cycles DRAM bank 48 requests wait for lower priority requests
+dram_bank_48_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 48 requests wait for same priority requests
+dram_bank_48_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 48 requests wait for higher priority requests
+dram_bank_48_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 49 spend in the queue
+dram_bank_49_queue_time 18446744073708109595
+
+#Number of cycles DRAM bank 49 spends opening rows for requests
+dram_bank_49_open_time 3100
+
+#Number of cycles DRAM bank 49 spends accessing rows for requests
+dram_bank_49_access_time 0
+
+#Number of cycles DRAM bank 49 spends closing rows for requests
+dram_bank_49_close_time 3050
+
+#Number of DRAM bank 49 read requests
+dram_bank_49_read_requests 132
+
+#Number of DRAM bank 49 write requests
+dram_bank_49_write_requests 0
+
+#Number of cyclesDRAM bank 49 read requests wait in the queue
+dram_bank_49_read_queue_time 18446744073708109595
+
+#Number of cyclesDRAM bank 49 write requests wait in the queue
+dram_bank_49_write_queue_time 0
+
+#Total number of cycles of DRAM bank 49 read requests
+dram_bank_49_read_total_time 15624
+
+#Total number of cycles of DRAM bank 49 write requests
+dram_bank_49_write_total_time 0
+
+#Number of DRAM bank 49 row buffer hits
+dram_bank_49_row_buffer_hits 70
+
+#Number of DRAM bank 49 row buffer misses
+dram_bank_49_row_buffer_misses 62
+
+#Number of DRAM bank 49 opens
+dram_bank_49_num_opens 62
+
+#Number of DRAM bank 49 accesses
+dram_bank_49_num_accesses 132
+
+#Number of DRAM bank 49 closes
+dram_bank_49_num_closes 61
+
+#Number of DRAM bank 49 read after read (RAR) hazards
+dram_bank_49_num_read_after_read 0
+
+#Number of DRAM bank 49 read after write (RAW) hazards
+dram_bank_49_num_read_after_write 0
+
+#Number of DRAM bank 49 write after read (WAR) hazards
+dram_bank_49_num_write_after_read 0
+
+#Number of DRAM bank 49 write after write (WAW) hazards
+dram_bank_49_num_write_after_write 0
+
+#Number of cycles DRAM bank 49 requests wait for lower priority requests
+dram_bank_49_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 49 requests wait for same priority requests
+dram_bank_49_wait_same_priority_time 39
+
+#Number of cycles DRAM bank 49 requests wait for higher priority requests
+dram_bank_49_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 50 spend in the queue
+dram_bank_50_queue_time 18446744073707934755
+
+#Number of cycles DRAM bank 50 spends opening rows for requests
+dram_bank_50_open_time 2150
+
+#Number of cycles DRAM bank 50 spends accessing rows for requests
+dram_bank_50_access_time 0
+
+#Number of cycles DRAM bank 50 spends closing rows for requests
+dram_bank_50_close_time 2100
+
+#Number of DRAM bank 50 read requests
+dram_bank_50_read_requests 121
+
+#Number of DRAM bank 50 write requests
+dram_bank_50_write_requests 0
+
+#Number of cyclesDRAM bank 50 read requests wait in the queue
+dram_bank_50_read_queue_time 18446744073707934755
+
+#Number of cyclesDRAM bank 50 write requests wait in the queue
+dram_bank_50_write_queue_time 0
+
+#Total number of cycles of DRAM bank 50 read requests
+dram_bank_50_read_total_time 12898
+
+#Total number of cycles of DRAM bank 50 write requests
+dram_bank_50_write_total_time 0
+
+#Number of DRAM bank 50 row buffer hits
+dram_bank_50_row_buffer_hits 78
+
+#Number of DRAM bank 50 row buffer misses
+dram_bank_50_row_buffer_misses 43
+
+#Number of DRAM bank 50 opens
+dram_bank_50_num_opens 43
+
+#Number of DRAM bank 50 accesses
+dram_bank_50_num_accesses 121
+
+#Number of DRAM bank 50 closes
+dram_bank_50_num_closes 42
+
+#Number of DRAM bank 50 read after read (RAR) hazards
+dram_bank_50_num_read_after_read 0
+
+#Number of DRAM bank 50 read after write (RAW) hazards
+dram_bank_50_num_read_after_write 0
+
+#Number of DRAM bank 50 write after read (WAR) hazards
+dram_bank_50_num_write_after_read 0
+
+#Number of DRAM bank 50 write after write (WAW) hazards
+dram_bank_50_num_write_after_write 0
+
+#Number of cycles DRAM bank 50 requests wait for lower priority requests
+dram_bank_50_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 50 requests wait for same priority requests
+dram_bank_50_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 50 requests wait for higher priority requests
+dram_bank_50_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 51 spend in the queue
+dram_bank_51_queue_time 18446744073708903659
+
+#Number of cycles DRAM bank 51 spends opening rows for requests
+dram_bank_51_open_time 500
+
+#Number of cycles DRAM bank 51 spends accessing rows for requests
+dram_bank_51_access_time 0
+
+#Number of cycles DRAM bank 51 spends closing rows for requests
+dram_bank_51_close_time 450
+
+#Number of DRAM bank 51 read requests
+dram_bank_51_read_requests 72
+
+#Number of DRAM bank 51 write requests
+dram_bank_51_write_requests 0
+
+#Number of cyclesDRAM bank 51 read requests wait in the queue
+dram_bank_51_read_queue_time 18446744073708903659
+
+#Number of cyclesDRAM bank 51 write requests wait in the queue
+dram_bank_51_write_queue_time 0
+
+#Total number of cycles of DRAM bank 51 read requests
+dram_bank_51_read_total_time 6177
+
+#Total number of cycles of DRAM bank 51 write requests
+dram_bank_51_write_total_time 0
+
+#Number of DRAM bank 51 row buffer hits
+dram_bank_51_row_buffer_hits 62
+
+#Number of DRAM bank 51 row buffer misses
+dram_bank_51_row_buffer_misses 10
+
+#Number of DRAM bank 51 opens
+dram_bank_51_num_opens 10
+
+#Number of DRAM bank 51 accesses
+dram_bank_51_num_accesses 72
+
+#Number of DRAM bank 51 closes
+dram_bank_51_num_closes 9
+
+#Number of DRAM bank 51 read after read (RAR) hazards
+dram_bank_51_num_read_after_read 0
+
+#Number of DRAM bank 51 read after write (RAW) hazards
+dram_bank_51_num_read_after_write 0
+
+#Number of DRAM bank 51 write after read (WAR) hazards
+dram_bank_51_num_write_after_read 0
+
+#Number of DRAM bank 51 write after write (WAW) hazards
+dram_bank_51_num_write_after_write 0
+
+#Number of cycles DRAM bank 51 requests wait for lower priority requests
+dram_bank_51_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 51 requests wait for same priority requests
+dram_bank_51_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 51 requests wait for higher priority requests
+dram_bank_51_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 52 spend in the queue
+dram_bank_52_queue_time 0
+
+#Number of cycles DRAM bank 52 spends opening rows for requests
+dram_bank_52_open_time 600
+
+#Number of cycles DRAM bank 52 spends accessing rows for requests
+dram_bank_52_access_time 0
+
+#Number of cycles DRAM bank 52 spends closing rows for requests
+dram_bank_52_close_time 550
+
+#Number of DRAM bank 52 read requests
+dram_bank_52_read_requests 72
+
+#Number of DRAM bank 52 write requests
+dram_bank_52_write_requests 0
+
+#Number of cyclesDRAM bank 52 read requests wait in the queue
+dram_bank_52_read_queue_time 0
+
+#Number of cyclesDRAM bank 52 write requests wait in the queue
+dram_bank_52_write_queue_time 0
+
+#Total number of cycles of DRAM bank 52 read requests
+dram_bank_52_read_total_time 6207
+
+#Total number of cycles of DRAM bank 52 write requests
+dram_bank_52_write_total_time 0
+
+#Number of DRAM bank 52 row buffer hits
+dram_bank_52_row_buffer_hits 60
+
+#Number of DRAM bank 52 row buffer misses
+dram_bank_52_row_buffer_misses 12
+
+#Number of DRAM bank 52 opens
+dram_bank_52_num_opens 12
+
+#Number of DRAM bank 52 accesses
+dram_bank_52_num_accesses 72
+
+#Number of DRAM bank 52 closes
+dram_bank_52_num_closes 11
+
+#Number of DRAM bank 52 read after read (RAR) hazards
+dram_bank_52_num_read_after_read 0
+
+#Number of DRAM bank 52 read after write (RAW) hazards
+dram_bank_52_num_read_after_write 0
+
+#Number of DRAM bank 52 write after read (WAR) hazards
+dram_bank_52_num_write_after_read 0
+
+#Number of DRAM bank 52 write after write (WAW) hazards
+dram_bank_52_num_write_after_write 0
+
+#Number of cycles DRAM bank 52 requests wait for lower priority requests
+dram_bank_52_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 52 requests wait for same priority requests
+dram_bank_52_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 52 requests wait for higher priority requests
+dram_bank_52_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 53 spend in the queue
+dram_bank_53_queue_time 18446744073707696542
+
+#Number of cycles DRAM bank 53 spends opening rows for requests
+dram_bank_53_open_time 2300
+
+#Number of cycles DRAM bank 53 spends accessing rows for requests
+dram_bank_53_access_time 0
+
+#Number of cycles DRAM bank 53 spends closing rows for requests
+dram_bank_53_close_time 2250
+
+#Number of DRAM bank 53 read requests
+dram_bank_53_read_requests 122
+
+#Number of DRAM bank 53 write requests
+dram_bank_53_write_requests 0
+
+#Number of cyclesDRAM bank 53 read requests wait in the queue
+dram_bank_53_read_queue_time 18446744073707696542
+
+#Number of cyclesDRAM bank 53 write requests wait in the queue
+dram_bank_53_write_queue_time 0
+
+#Total number of cycles of DRAM bank 53 read requests
+dram_bank_53_read_total_time 13325
+
+#Total number of cycles of DRAM bank 53 write requests
+dram_bank_53_write_total_time 0
+
+#Number of DRAM bank 53 row buffer hits
+dram_bank_53_row_buffer_hits 76
+
+#Number of DRAM bank 53 row buffer misses
+dram_bank_53_row_buffer_misses 46
+
+#Number of DRAM bank 53 opens
+dram_bank_53_num_opens 46
+
+#Number of DRAM bank 53 accesses
+dram_bank_53_num_accesses 122
+
+#Number of DRAM bank 53 closes
+dram_bank_53_num_closes 45
+
+#Number of DRAM bank 53 read after read (RAR) hazards
+dram_bank_53_num_read_after_read 0
+
+#Number of DRAM bank 53 read after write (RAW) hazards
+dram_bank_53_num_read_after_write 0
+
+#Number of DRAM bank 53 write after read (WAR) hazards
+dram_bank_53_num_write_after_read 0
+
+#Number of DRAM bank 53 write after write (WAW) hazards
+dram_bank_53_num_write_after_write 0
+
+#Number of cycles DRAM bank 53 requests wait for lower priority requests
+dram_bank_53_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 53 requests wait for same priority requests
+dram_bank_53_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 53 requests wait for higher priority requests
+dram_bank_53_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 54 spend in the queue
+dram_bank_54_queue_time 18446744073708271814
+
+#Number of cycles DRAM bank 54 spends opening rows for requests
+dram_bank_54_open_time 300
+
+#Number of cycles DRAM bank 54 spends accessing rows for requests
+dram_bank_54_access_time 0
+
+#Number of cycles DRAM bank 54 spends closing rows for requests
+dram_bank_54_close_time 250
+
+#Number of DRAM bank 54 read requests
+dram_bank_54_read_requests 81
+
+#Number of DRAM bank 54 write requests
+dram_bank_54_write_requests 0
+
+#Number of cyclesDRAM bank 54 read requests wait in the queue
+dram_bank_54_read_queue_time 18446744073708271814
+
+#Number of cyclesDRAM bank 54 write requests wait in the queue
+dram_bank_54_write_queue_time 0
+
+#Total number of cycles of DRAM bank 54 read requests
+dram_bank_54_read_total_time 6437
+
+#Total number of cycles of DRAM bank 54 write requests
+dram_bank_54_write_total_time 0
+
+#Number of DRAM bank 54 row buffer hits
+dram_bank_54_row_buffer_hits 75
+
+#Number of DRAM bank 54 row buffer misses
+dram_bank_54_row_buffer_misses 6
+
+#Number of DRAM bank 54 opens
+dram_bank_54_num_opens 6
+
+#Number of DRAM bank 54 accesses
+dram_bank_54_num_accesses 81
+
+#Number of DRAM bank 54 closes
+dram_bank_54_num_closes 5
+
+#Number of DRAM bank 54 read after read (RAR) hazards
+dram_bank_54_num_read_after_read 0
+
+#Number of DRAM bank 54 read after write (RAW) hazards
+dram_bank_54_num_read_after_write 0
+
+#Number of DRAM bank 54 write after read (WAR) hazards
+dram_bank_54_num_write_after_read 0
+
+#Number of DRAM bank 54 write after write (WAW) hazards
+dram_bank_54_num_write_after_write 0
+
+#Number of cycles DRAM bank 54 requests wait for lower priority requests
+dram_bank_54_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 54 requests wait for same priority requests
+dram_bank_54_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 54 requests wait for higher priority requests
+dram_bank_54_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 55 spend in the queue
+dram_bank_55_queue_time 18446744073708949508
+
+#Number of cycles DRAM bank 55 spends opening rows for requests
+dram_bank_55_open_time 400
+
+#Number of cycles DRAM bank 55 spends accessing rows for requests
+dram_bank_55_access_time 0
+
+#Number of cycles DRAM bank 55 spends closing rows for requests
+dram_bank_55_close_time 350
+
+#Number of DRAM bank 55 read requests
+dram_bank_55_read_requests 120
+
+#Number of DRAM bank 55 write requests
+dram_bank_55_write_requests 0
+
+#Number of cyclesDRAM bank 55 read requests wait in the queue
+dram_bank_55_read_queue_time 18446744073708949508
+
+#Number of cyclesDRAM bank 55 write requests wait in the queue
+dram_bank_55_write_queue_time 0
+
+#Total number of cycles of DRAM bank 55 read requests
+dram_bank_55_read_total_time 9065
+
+#Total number of cycles of DRAM bank 55 write requests
+dram_bank_55_write_total_time 0
+
+#Number of DRAM bank 55 row buffer hits
+dram_bank_55_row_buffer_hits 112
+
+#Number of DRAM bank 55 row buffer misses
+dram_bank_55_row_buffer_misses 8
+
+#Number of DRAM bank 55 opens
+dram_bank_55_num_opens 8
+
+#Number of DRAM bank 55 accesses
+dram_bank_55_num_accesses 120
+
+#Number of DRAM bank 55 closes
+dram_bank_55_num_closes 7
+
+#Number of DRAM bank 55 read after read (RAR) hazards
+dram_bank_55_num_read_after_read 0
+
+#Number of DRAM bank 55 read after write (RAW) hazards
+dram_bank_55_num_read_after_write 0
+
+#Number of DRAM bank 55 write after read (WAR) hazards
+dram_bank_55_num_write_after_read 0
+
+#Number of DRAM bank 55 write after write (WAW) hazards
+dram_bank_55_num_write_after_write 0
+
+#Number of cycles DRAM bank 55 requests wait for lower priority requests
+dram_bank_55_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 55 requests wait for same priority requests
+dram_bank_55_wait_same_priority_time 179
+
+#Number of cycles DRAM bank 55 requests wait for higher priority requests
+dram_bank_55_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 56 spend in the queue
+dram_bank_56_queue_time 18446744073701909996
+
+#Number of cycles DRAM bank 56 spends opening rows for requests
+dram_bank_56_open_time 650
+
+#Number of cycles DRAM bank 56 spends accessing rows for requests
+dram_bank_56_access_time 0
+
+#Number of cycles DRAM bank 56 spends closing rows for requests
+dram_bank_56_close_time 600
+
+#Number of DRAM bank 56 read requests
+dram_bank_56_read_requests 151
+
+#Number of DRAM bank 56 write requests
+dram_bank_56_write_requests 0
+
+#Number of cyclesDRAM bank 56 read requests wait in the queue
+dram_bank_56_read_queue_time 18446744073701909996
+
+#Number of cyclesDRAM bank 56 write requests wait in the queue
+dram_bank_56_write_queue_time 0
+
+#Total number of cycles of DRAM bank 56 read requests
+dram_bank_56_read_total_time 12542
+
+#Total number of cycles of DRAM bank 56 write requests
+dram_bank_56_write_total_time 0
+
+#Number of DRAM bank 56 row buffer hits
+dram_bank_56_row_buffer_hits 138
+
+#Number of DRAM bank 56 row buffer misses
+dram_bank_56_row_buffer_misses 13
+
+#Number of DRAM bank 56 opens
+dram_bank_56_num_opens 13
+
+#Number of DRAM bank 56 accesses
+dram_bank_56_num_accesses 151
+
+#Number of DRAM bank 56 closes
+dram_bank_56_num_closes 12
+
+#Number of DRAM bank 56 read after read (RAR) hazards
+dram_bank_56_num_read_after_read 0
+
+#Number of DRAM bank 56 read after write (RAW) hazards
+dram_bank_56_num_read_after_write 0
+
+#Number of DRAM bank 56 write after read (WAR) hazards
+dram_bank_56_num_write_after_read 0
+
+#Number of DRAM bank 56 write after write (WAW) hazards
+dram_bank_56_num_write_after_write 0
+
+#Number of cycles DRAM bank 56 requests wait for lower priority requests
+dram_bank_56_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 56 requests wait for same priority requests
+dram_bank_56_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 56 requests wait for higher priority requests
+dram_bank_56_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 57 spend in the queue
+dram_bank_57_queue_time 18446744073708900368
+
+#Number of cycles DRAM bank 57 spends opening rows for requests
+dram_bank_57_open_time 450
+
+#Number of cycles DRAM bank 57 spends accessing rows for requests
+dram_bank_57_access_time 0
+
+#Number of cycles DRAM bank 57 spends closing rows for requests
+dram_bank_57_close_time 400
+
+#Number of DRAM bank 57 read requests
+dram_bank_57_read_requests 92
+
+#Number of DRAM bank 57 write requests
+dram_bank_57_write_requests 0
+
+#Number of cyclesDRAM bank 57 read requests wait in the queue
+dram_bank_57_read_queue_time 18446744073708900368
+
+#Number of cyclesDRAM bank 57 write requests wait in the queue
+dram_bank_57_write_queue_time 0
+
+#Total number of cycles of DRAM bank 57 read requests
+dram_bank_57_read_total_time 7467
+
+#Total number of cycles of DRAM bank 57 write requests
+dram_bank_57_write_total_time 0
+
+#Number of DRAM bank 57 row buffer hits
+dram_bank_57_row_buffer_hits 83
+
+#Number of DRAM bank 57 row buffer misses
+dram_bank_57_row_buffer_misses 9
+
+#Number of DRAM bank 57 opens
+dram_bank_57_num_opens 9
+
+#Number of DRAM bank 57 accesses
+dram_bank_57_num_accesses 92
+
+#Number of DRAM bank 57 closes
+dram_bank_57_num_closes 8
+
+#Number of DRAM bank 57 read after read (RAR) hazards
+dram_bank_57_num_read_after_read 0
+
+#Number of DRAM bank 57 read after write (RAW) hazards
+dram_bank_57_num_read_after_write 0
+
+#Number of DRAM bank 57 write after read (WAR) hazards
+dram_bank_57_num_write_after_read 0
+
+#Number of DRAM bank 57 write after write (WAW) hazards
+dram_bank_57_num_write_after_write 0
+
+#Number of cycles DRAM bank 57 requests wait for lower priority requests
+dram_bank_57_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 57 requests wait for same priority requests
+dram_bank_57_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 57 requests wait for higher priority requests
+dram_bank_57_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 58 spend in the queue
+dram_bank_58_queue_time 18446744073709488160
+
+#Number of cycles DRAM bank 58 spends opening rows for requests
+dram_bank_58_open_time 550
+
+#Number of cycles DRAM bank 58 spends accessing rows for requests
+dram_bank_58_access_time 0
+
+#Number of cycles DRAM bank 58 spends closing rows for requests
+dram_bank_58_close_time 500
+
+#Number of DRAM bank 58 read requests
+dram_bank_58_read_requests 136
+
+#Number of DRAM bank 58 write requests
+dram_bank_58_write_requests 0
+
+#Number of cyclesDRAM bank 58 read requests wait in the queue
+dram_bank_58_read_queue_time 18446744073709488160
+
+#Number of cyclesDRAM bank 58 write requests wait in the queue
+dram_bank_58_write_queue_time 0
+
+#Total number of cycles of DRAM bank 58 read requests
+dram_bank_58_read_total_time 10353
+
+#Total number of cycles of DRAM bank 58 write requests
+dram_bank_58_write_total_time 0
+
+#Number of DRAM bank 58 row buffer hits
+dram_bank_58_row_buffer_hits 125
+
+#Number of DRAM bank 58 row buffer misses
+dram_bank_58_row_buffer_misses 11
+
+#Number of DRAM bank 58 opens
+dram_bank_58_num_opens 11
+
+#Number of DRAM bank 58 accesses
+dram_bank_58_num_accesses 136
+
+#Number of DRAM bank 58 closes
+dram_bank_58_num_closes 10
+
+#Number of DRAM bank 58 read after read (RAR) hazards
+dram_bank_58_num_read_after_read 0
+
+#Number of DRAM bank 58 read after write (RAW) hazards
+dram_bank_58_num_read_after_write 0
+
+#Number of DRAM bank 58 write after read (WAR) hazards
+dram_bank_58_num_write_after_read 0
+
+#Number of DRAM bank 58 write after write (WAW) hazards
+dram_bank_58_num_write_after_write 0
+
+#Number of cycles DRAM bank 58 requests wait for lower priority requests
+dram_bank_58_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 58 requests wait for same priority requests
+dram_bank_58_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 58 requests wait for higher priority requests
+dram_bank_58_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 59 spend in the queue
+dram_bank_59_queue_time 18446744073706500753
+
+#Number of cycles DRAM bank 59 spends opening rows for requests
+dram_bank_59_open_time 350
+
+#Number of cycles DRAM bank 59 spends accessing rows for requests
+dram_bank_59_access_time 0
+
+#Number of cycles DRAM bank 59 spends closing rows for requests
+dram_bank_59_close_time 300
+
+#Number of DRAM bank 59 read requests
+dram_bank_59_read_requests 62
+
+#Number of DRAM bank 59 write requests
+dram_bank_59_write_requests 0
+
+#Number of cyclesDRAM bank 59 read requests wait in the queue
+dram_bank_59_read_queue_time 18446744073706500753
+
+#Number of cyclesDRAM bank 59 write requests wait in the queue
+dram_bank_59_write_queue_time 0
+
+#Total number of cycles of DRAM bank 59 read requests
+dram_bank_59_read_total_time 4990
+
+#Total number of cycles of DRAM bank 59 write requests
+dram_bank_59_write_total_time 0
+
+#Number of DRAM bank 59 row buffer hits
+dram_bank_59_row_buffer_hits 55
+
+#Number of DRAM bank 59 row buffer misses
+dram_bank_59_row_buffer_misses 7
+
+#Number of DRAM bank 59 opens
+dram_bank_59_num_opens 7
+
+#Number of DRAM bank 59 accesses
+dram_bank_59_num_accesses 62
+
+#Number of DRAM bank 59 closes
+dram_bank_59_num_closes 6
+
+#Number of DRAM bank 59 read after read (RAR) hazards
+dram_bank_59_num_read_after_read 0
+
+#Number of DRAM bank 59 read after write (RAW) hazards
+dram_bank_59_num_read_after_write 0
+
+#Number of DRAM bank 59 write after read (WAR) hazards
+dram_bank_59_num_write_after_read 0
+
+#Number of DRAM bank 59 write after write (WAW) hazards
+dram_bank_59_num_write_after_write 0
+
+#Number of cycles DRAM bank 59 requests wait for lower priority requests
+dram_bank_59_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 59 requests wait for same priority requests
+dram_bank_59_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 59 requests wait for higher priority requests
+dram_bank_59_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 60 spend in the queue
+dram_bank_60_queue_time 18446744073708490182
+
+#Number of cycles DRAM bank 60 spends opening rows for requests
+dram_bank_60_open_time 400
+
+#Number of cycles DRAM bank 60 spends accessing rows for requests
+dram_bank_60_access_time 0
+
+#Number of cycles DRAM bank 60 spends closing rows for requests
+dram_bank_60_close_time 350
+
+#Number of DRAM bank 60 read requests
+dram_bank_60_read_requests 109
+
+#Number of DRAM bank 60 write requests
+dram_bank_60_write_requests 0
+
+#Number of cyclesDRAM bank 60 read requests wait in the queue
+dram_bank_60_read_queue_time 18446744073708490182
+
+#Number of cyclesDRAM bank 60 write requests wait in the queue
+dram_bank_60_write_queue_time 0
+
+#Total number of cycles of DRAM bank 60 read requests
+dram_bank_60_read_total_time 8190
+
+#Total number of cycles of DRAM bank 60 write requests
+dram_bank_60_write_total_time 0
+
+#Number of DRAM bank 60 row buffer hits
+dram_bank_60_row_buffer_hits 101
+
+#Number of DRAM bank 60 row buffer misses
+dram_bank_60_row_buffer_misses 8
+
+#Number of DRAM bank 60 opens
+dram_bank_60_num_opens 8
+
+#Number of DRAM bank 60 accesses
+dram_bank_60_num_accesses 109
+
+#Number of DRAM bank 60 closes
+dram_bank_60_num_closes 7
+
+#Number of DRAM bank 60 read after read (RAR) hazards
+dram_bank_60_num_read_after_read 0
+
+#Number of DRAM bank 60 read after write (RAW) hazards
+dram_bank_60_num_read_after_write 0
+
+#Number of DRAM bank 60 write after read (WAR) hazards
+dram_bank_60_num_write_after_read 0
+
+#Number of DRAM bank 60 write after write (WAW) hazards
+dram_bank_60_num_write_after_write 0
+
+#Number of cycles DRAM bank 60 requests wait for lower priority requests
+dram_bank_60_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 60 requests wait for same priority requests
+dram_bank_60_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 60 requests wait for higher priority requests
+dram_bank_60_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 61 spend in the queue
+dram_bank_61_queue_time 18446744073697479806
+
+#Number of cycles DRAM bank 61 spends opening rows for requests
+dram_bank_61_open_time 200
+
+#Number of cycles DRAM bank 61 spends accessing rows for requests
+dram_bank_61_access_time 0
+
+#Number of cycles DRAM bank 61 spends closing rows for requests
+dram_bank_61_close_time 150
+
+#Number of DRAM bank 61 read requests
+dram_bank_61_read_requests 117
+
+#Number of DRAM bank 61 write requests
+dram_bank_61_write_requests 0
+
+#Number of cyclesDRAM bank 61 read requests wait in the queue
+dram_bank_61_read_queue_time 18446744073697479806
+
+#Number of cyclesDRAM bank 61 write requests wait in the queue
+dram_bank_61_write_queue_time 0
+
+#Total number of cycles of DRAM bank 61 read requests
+dram_bank_61_read_total_time 9308
+
+#Total number of cycles of DRAM bank 61 write requests
+dram_bank_61_write_total_time 0
+
+#Number of DRAM bank 61 row buffer hits
+dram_bank_61_row_buffer_hits 113
+
+#Number of DRAM bank 61 row buffer misses
+dram_bank_61_row_buffer_misses 4
+
+#Number of DRAM bank 61 opens
+dram_bank_61_num_opens 4
+
+#Number of DRAM bank 61 accesses
+dram_bank_61_num_accesses 117
+
+#Number of DRAM bank 61 closes
+dram_bank_61_num_closes 3
+
+#Number of DRAM bank 61 read after read (RAR) hazards
+dram_bank_61_num_read_after_read 0
+
+#Number of DRAM bank 61 read after write (RAW) hazards
+dram_bank_61_num_read_after_write 0
+
+#Number of DRAM bank 61 write after read (WAR) hazards
+dram_bank_61_num_write_after_read 0
+
+#Number of DRAM bank 61 write after write (WAW) hazards
+dram_bank_61_num_write_after_write 0
+
+#Number of cycles DRAM bank 61 requests wait for lower priority requests
+dram_bank_61_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 61 requests wait for same priority requests
+dram_bank_61_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 61 requests wait for higher priority requests
+dram_bank_61_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 62 spend in the queue
+dram_bank_62_queue_time 18446744073706376899
+
+#Number of cycles DRAM bank 62 spends opening rows for requests
+dram_bank_62_open_time 250
+
+#Number of cycles DRAM bank 62 spends accessing rows for requests
+dram_bank_62_access_time 0
+
+#Number of cycles DRAM bank 62 spends closing rows for requests
+dram_bank_62_close_time 200
+
+#Number of DRAM bank 62 read requests
+dram_bank_62_read_requests 140
+
+#Number of DRAM bank 62 write requests
+dram_bank_62_write_requests 0
+
+#Number of cyclesDRAM bank 62 read requests wait in the queue
+dram_bank_62_read_queue_time 18446744073706376899
+
+#Number of cyclesDRAM bank 62 write requests wait in the queue
+dram_bank_62_write_queue_time 0
+
+#Total number of cycles of DRAM bank 62 read requests
+dram_bank_62_read_total_time 11463
+
+#Total number of cycles of DRAM bank 62 write requests
+dram_bank_62_write_total_time 0
+
+#Number of DRAM bank 62 row buffer hits
+dram_bank_62_row_buffer_hits 135
+
+#Number of DRAM bank 62 row buffer misses
+dram_bank_62_row_buffer_misses 5
+
+#Number of DRAM bank 62 opens
+dram_bank_62_num_opens 5
+
+#Number of DRAM bank 62 accesses
+dram_bank_62_num_accesses 140
+
+#Number of DRAM bank 62 closes
+dram_bank_62_num_closes 4
+
+#Number of DRAM bank 62 read after read (RAR) hazards
+dram_bank_62_num_read_after_read 0
+
+#Number of DRAM bank 62 read after write (RAW) hazards
+dram_bank_62_num_read_after_write 0
+
+#Number of DRAM bank 62 write after read (WAR) hazards
+dram_bank_62_num_write_after_read 0
+
+#Number of DRAM bank 62 write after write (WAW) hazards
+dram_bank_62_num_write_after_write 0
+
+#Number of cycles DRAM bank 62 requests wait for lower priority requests
+dram_bank_62_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 62 requests wait for same priority requests
+dram_bank_62_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 62 requests wait for higher priority requests
+dram_bank_62_wait_higher_priority_time 0
+
+#Number of cycles requests for DRAM bank 63 spend in the queue
+dram_bank_63_queue_time 18446744073709113313
+
+#Number of cycles DRAM bank 63 spends opening rows for requests
+dram_bank_63_open_time 400
+
+#Number of cycles DRAM bank 63 spends accessing rows for requests
+dram_bank_63_access_time 0
+
+#Number of cycles DRAM bank 63 spends closing rows for requests
+dram_bank_63_close_time 350
+
+#Number of DRAM bank 63 read requests
+dram_bank_63_read_requests 32
+
+#Number of DRAM bank 63 write requests
+dram_bank_63_write_requests 0
+
+#Number of cyclesDRAM bank 63 read requests wait in the queue
+dram_bank_63_read_queue_time 18446744073709113313
+
+#Number of cyclesDRAM bank 63 write requests wait in the queue
+dram_bank_63_write_queue_time 0
+
+#Total number of cycles of DRAM bank 63 read requests
+dram_bank_63_read_total_time 2987
+
+#Total number of cycles of DRAM bank 63 write requests
+dram_bank_63_write_total_time 0
+
+#Number of DRAM bank 63 row buffer hits
+dram_bank_63_row_buffer_hits 24
+
+#Number of DRAM bank 63 row buffer misses
+dram_bank_63_row_buffer_misses 8
+
+#Number of DRAM bank 63 opens
+dram_bank_63_num_opens 8
+
+#Number of DRAM bank 63 accesses
+dram_bank_63_num_accesses 32
+
+#Number of DRAM bank 63 closes
+dram_bank_63_num_closes 7
+
+#Number of DRAM bank 63 read after read (RAR) hazards
+dram_bank_63_num_read_after_read 0
+
+#Number of DRAM bank 63 read after write (RAW) hazards
+dram_bank_63_num_read_after_write 0
+
+#Number of DRAM bank 63 write after read (WAR) hazards
+dram_bank_63_num_write_after_read 0
+
+#Number of DRAM bank 63 write after write (WAW) hazards
+dram_bank_63_num_write_after_write 0
+
+#Number of cycles DRAM bank 63 requests wait for lower priority requests
+dram_bank_63_wait_lower_priority_time 0
+
+#Number of cycles DRAM bank 63 requests wait for same priority requests
+dram_bank_63_wait_same_priority_time 0
+
+#Number of cycles DRAM bank 63 requests wait for higher priority requests
+dram_bank_63_wait_higher_priority_time 0
+
+#Size of memory available to the memory manager
+memory_size 4294967296
+
+#Size of memory used by the memory manager
+memory_size_used 1253376
+
+#Number of Shared L2 Cache hits
+L2_all_hits 3699
+
+#Number of Shared L2 Cache misses without eviction
+L2_misses_without_eviction 7637
+
+#Number of Shared L2 Cache misses with eviction
+L2_misses_with_eviction 0
+
+#Number of Shared L2 Cache misses with writeback
+L2_misses_with_writeback 0
+
+#Number of Shared L2 Cache misses without free block
+L2_misses_without_free_block 0
+
+#Number of Shared L2 Cache data load hits
+L2_data_load_hits 2315
+
+#Number of Shared L2 Cache data load misses
+L2_data_load_misses 6421
+
+#Number of Shared L2 Cache data store hits
+L2_data_store_hits 1375
+
+#Number of Shared L2 Cache data store misses
+L2_data_store_misses 0
+
+#Number of Shared L2 Cache instruction load hits
+L2_instr_load_hits 9
+
+#Number of Shared L2 Cache instruction load misses
+L2_instr_load_misses 1216
+
+#Number of Shared L2 Cache flushes without eviction
+L2_flushes_without_eviction 0
+
+#Number of Shared L2 Cache flushes with eviction
+L2_flushes_with_eviction 0
+
+#Number of Shared L2 Cache flushes with writeback
+L2_flushes_with_writeback 0
+
+#Number of Shared L2 Cache tag change hits
+L2_tag_change_hits 0
+
+#Number of Shared L2 Cache tag change misses
+L2_tag_change_misses 0
+
+#Number of Shared L2 Cache misses
+L2_all_misses 7637
+
+#Number of Shared L2 Cache accesses
+L2_accesses 11336
+
+#Shared L2 Cache hit rate
+L2_hit_rate 0.33
+
+#Shared L2 Cache miss rate
+L2_miss_rate 0.67
+
+#Number of cycles of Shared L2 Cache read requests
+L2_read_access_time 633561
+
+#Number of Shared L2 Cache misses from flush
+L2_misses_from_flush 0
+
+#Number of Shared L2 Cache writebacks from flush
+L2_writebacks_from_flush 0
+
+#Number of Instruction L1 Cache 0 hits
+instr_L1_0_all_hits 400530
+
+#Number of Instruction L1 Cache 0 misses without eviction
+instr_L1_0_misses_without_eviction 927
+
+#Number of Instruction L1 Cache 0 misses with eviction
+instr_L1_0_misses_with_eviction 298
+
+#Number of Instruction L1 Cache 0 misses with writeback
+instr_L1_0_misses_with_writeback 0
+
+#Number of Instruction L1 Cache 0 misses without free block
+instr_L1_0_misses_without_free_block 0
+
+#Number of Instruction L1 Cache 0 data load hits
+instr_L1_0_data_load_hits 0
+
+#Number of Instruction L1 Cache 0 data load misses
+instr_L1_0_data_load_misses 0
+
+#Number of Instruction L1 Cache 0 data store hits
+instr_L1_0_data_store_hits 0
+
+#Number of Instruction L1 Cache 0 data store misses
+instr_L1_0_data_store_misses 0
+
+#Number of Instruction L1 Cache 0 instruction load hits
+instr_L1_0_instr_load_hits 400530
+
+#Number of Instruction L1 Cache 0 instruction load misses
+instr_L1_0_instr_load_misses 1225
+
+#Number of Instruction L1 Cache 0 flushes without eviction
+instr_L1_0_flushes_without_eviction 0
+
+#Number of Instruction L1 Cache 0 flushes with eviction
+instr_L1_0_flushes_with_eviction 0
+
+#Number of Instruction L1 Cache 0 flushes with writeback
+instr_L1_0_flushes_with_writeback 0
+
+#Number of Instruction L1 Cache 0 tag change hits
+instr_L1_0_tag_change_hits 0
+
+#Number of Instruction L1 Cache 0 tag change misses
+instr_L1_0_tag_change_misses 0
+
+#Number of Instruction L1 Cache 0 misses
+instr_L1_0_all_misses 1225
+
+#Number of Instruction L1 Cache 0 accesses
+instr_L1_0_accesses 401755
+
+#Instruction L1 Cache 0 hit rate
+instr_L1_0_hit_rate 1.00
+
+#Instruction L1 Cache 0 miss rate
+instr_L1_0_miss_rate 0.00
+
+#Number of cycles of Instruction L1 Cache 0 read requests
+instr_L1_0_read_access_time 136743
+
+#Number of Instruction L1 Cache 0 misses from flush
+instr_L1_0_misses_from_flush 0
+
+#Number of Instruction L1 Cache 0 writebacks from flush
+instr_L1_0_writebacks_from_flush 0
+
+#Number of Data L1 Cache 0 hits
+data_L1_0_all_hits 212870
+
+#Number of Data L1 Cache 0 misses without eviction
+data_L1_0_misses_without_eviction 1024
+
+#Number of Data L1 Cache 0 misses with eviction
+data_L1_0_misses_with_eviction 6338
+
+#Number of Data L1 Cache 0 misses with writeback
+data_L1_0_misses_with_writeback 1375
+
+#Number of Data L1 Cache 0 misses without free block
+data_L1_0_misses_without_free_block 0
+
+#Number of Data L1 Cache 0 data load hits
+data_L1_0_data_load_hits 166788
+
+#Number of Data L1 Cache 0 data load misses
+data_L1_0_data_load_misses 7258
+
+#Number of Data L1 Cache 0 data store hits
+data_L1_0_data_store_hits 46082
+
+#Number of Data L1 Cache 0 data store misses
+data_L1_0_data_store_misses 1479
+
+#Number of Data L1 Cache 0 instruction load hits
+data_L1_0_instr_load_hits 0
+
+#Number of Data L1 Cache 0 instruction load misses
+data_L1_0_instr_load_misses 0
+
+#Number of Data L1 Cache 0 flushes without eviction
+data_L1_0_flushes_without_eviction 0
+
+#Number of Data L1 Cache 0 flushes with eviction
+data_L1_0_flushes_with_eviction 0
+
+#Number of Data L1 Cache 0 flushes with writeback
+data_L1_0_flushes_with_writeback 0
+
+#Number of Data L1 Cache 0 tag change hits
+data_L1_0_tag_change_hits 0
+
+#Number of Data L1 Cache 0 tag change misses
+data_L1_0_tag_change_misses 0
+
+#Number of Data L1 Cache 0 misses
+data_L1_0_all_misses 8737
+
+#Number of Data L1 Cache 0 accesses
+data_L1_0_accesses 221607
+
+#Data L1 Cache 0 hit rate
+data_L1_0_hit_rate 0.96
+
+#Data L1 Cache 0 miss rate
+data_L1_0_miss_rate 0.04
+
+#Number of cycles of Data L1 Cache 0 read requests
+data_L1_0_read_access_time 815616
+
+#Number of Data L1 Cache 0 misses from flush
+data_L1_0_misses_from_flush 0
+
+#Number of Data L1 Cache 0 writebacks from flush
+data_L1_0_writebacks_from_flush 0
+
+#Number of CPU 0 instructions executed
+cpu_0_instructions_executed 1310382
+
+#Total number of CPU 0 cycles
+cpu_0_total_time 715169
+
+#Number of CPU 0 instruction reads
+cpu_0_instruction_reads 1339141
+
+#Number of CPU 0 data reads
+cpu_0_data_reads 322458
+
+#Number of CPU 0 data writes
+cpu_0_data_writes 125073
+
+#Number of CPU 0 sleep cycles
+cpu_0_sleep_cycles 0
+
+#Number of CPU 0 access cycles
+cpu_0_access_cycles 0
+
+#Number of CPU 0 pause cycles
+cpu_0_pause_cycles 0
+
+#CPU 0 IPC
+cpu_0_ipc 1.83
+
+#Number of cycles of CPU 0 instruction requests
+cpu_0_instr_total_time 318828
+
+#Number of cycles CPU 0 instruction requests wait for requests to the same block in the L1
+cpu_0_instr_L1_wait_time 354960604318
+
+#Number of cycles CPU 0 instruction requests wait for requests to the same block in the L2
+cpu_0_instr_L2_wait_time 0
+
+#Number of cycles CPU 0 instruction requests pause at CPU
+cpu_0_instr_cpu_pause_time 0
+
+#Number of cycles CPU 0 instruction requests stall at CPU
+cpu_0_instr_cpu_stall_time 0
+
+#Number of cycles CPU 0 instruction requests spend on L1 tag access
+cpu_0_instr_L1_tag_time 0
+
+#Number of cycles CPU 0 instruction requests stall at L1
+cpu_0_instr_L1_stall_time 0
+
+#Number of cycles CPU 0 instruction requests spend on L2 tag access
+cpu_0_instr_L2_tag_time 39200
+
+#Number of cycles CPU 0 instruction requests stall at L2
+cpu_0_instr_L2_stall_time 0
+
+#Number of cycles CPU 0 instruction requests wait in the DRAM queue
+cpu_0_instr_dram_queue_time 0
+
+#Number of cycles CPU 0 instruction requests wait closing DRAM banks
+cpu_0_instr_dram_close_time 1494
+
+#Number of cycles of CPU 0 instruction requests spend opening DRAM banks
+cpu_0_instr_dram_open_time 6550
+
+#Number of cycles CPU 0 instruction requests spend accessing DRAM banks
+cpu_0_instr_dram_access_time 7700
+
+#Number of cycles CPU 0 instruction requests wait in the DRAM bus queue
+cpu_0_instr_dram_bus_queue_time 60800
+
+#Number of cycles CPU 0 instruction requests spend in the DRAM bus
+cpu_0_instr_dram_bus_time 1543
+
+#Number of cycles CPU 0 instruction requests wait in the PCM queue
+cpu_0_instr_pcm_queue_time 19456
+
+#Number of cycles CPU 0 instruction requests wait closing PCM banks
+cpu_0_instr_pcm_close_time 0
+
+#Number of cycles of CPU 0 instruction requests spend opening PCM banks
+cpu_0_instr_pcm_open_time 0
+
+#Number of cycles CPU 0 instruction requests spend accessing PCM banks
+cpu_0_instr_pcm_access_time 0
+
+#Number of cycles CPU 0 instruction requests wait in the PCM bus queue
+cpu_0_instr_pcm_bus_queue_time 0
+
+#Number of cycles CPU 0 instruction requests spend in the PCM bus
+cpu_0_instr_pcm_bus_time 0
+
+#Number of CPU 0 instruction L1 requests (ignoring reads that wait for other requests)
+cpu_0_instr_L1_count 0
+
+#Number of CPU 0 instruction L2 requests (ignoring reads that wait for other requests)
+cpu_0_instr_L2_count 1225
+
+#Number of CPU 0 instruction requests that close a DRAM row
+cpu_0_instr_dram_close_count 131
+
+#Number of CPU 0 instruction requests that open a DRAM row
+cpu_0_instr_dram_open_count 154
+
+#Number of CPU 0 instruction requests that access a DRAM row
+cpu_0_instr_dram_access_count 1216
+
+#Number of CPU 0 instruction requests that close a PCM row
+cpu_0_instr_pcm_close_count 0
+
+#Number of CPU 0 instruction requests that open a PCM row
+cpu_0_instr_pcm_open_count 0
+
+#Number of CPU 0 instruction requests that access a PCM row
+cpu_0_instr_pcm_access_count 0
+
+#Number of cycles of CPU 0 data requests
+cpu_0_data_total_time 3571289
+
+#Number of cycles CPU 0 data requests wait for requests to the same block in the L1
+cpu_0_data_L1_wait_time 46685517362
+
+#Number of cycles CPU 0 data requests wait for requests to the same block in the L2
+cpu_0_data_L2_wait_time 0
+
+#Number of cycles CPU 0 data requests pause at CPU
+cpu_0_data_cpu_pause_time 0
+
+#Number of cycles CPU 0 data requests stall at CPU
+cpu_0_data_cpu_stall_time 18388
+
+#Number of cycles CPU 0 data requests spend on L1 tag access
+cpu_0_data_L1_tag_time 522138
+
+#Number of cycles CPU 0 data requests stall at L1
+cpu_0_data_L1_stall_time 29
+
+#Number of cycles CPU 0 data requests spend on L2 tag access
+cpu_0_data_L2_tag_time 232256
+
+#Number of cycles CPU 0 data requests stall at L2
+cpu_0_data_L2_stall_time 0
+
+#Number of cycles CPU 0 data requests wait in the DRAM queue
+cpu_0_data_dram_queue_time 0
+
+#Number of cycles CPU 0 data requests wait closing DRAM banks
+cpu_0_data_dram_close_time 18316
+
+#Number of cycles of CPU 0 data requests spend opening DRAM banks
+cpu_0_data_dram_open_time 24150
+
+#Number of cycles CPU 0 data requests spend accessing DRAM banks
+cpu_0_data_dram_access_time 25750
+
+#Number of cycles CPU 0 data requests wait in the DRAM bus queue
+cpu_0_data_dram_bus_queue_time 259900
+
+#Number of cycles CPU 0 data requests spend in the DRAM bus
+cpu_0_data_dram_bus_time 18621
+
+#Number of cycles CPU 0 data requests wait in the PCM queue
+cpu_0_data_pcm_queue_time 83168
+
+#Number of cycles CPU 0 data requests wait closing PCM banks
+cpu_0_data_pcm_close_time 0
+
+#Number of cycles of CPU 0 data requests spend opening PCM banks
+cpu_0_data_pcm_open_time 0
+
+#Number of cycles CPU 0 data requests spend accessing PCM banks
+cpu_0_data_pcm_access_time 0
+
+#Number of cycles CPU 0 data requests wait in the PCM bus queue
+cpu_0_data_pcm_bus_queue_time 0
+
+#Number of cycles CPU 0 data requests spend in the PCM bus
+cpu_0_data_pcm_bus_time 0
+
+#Number of CPU 0 data L1 requests (ignoring reads that wait for other requests)
+cpu_0_data_L1_count 174046
+
+#Number of CPU 0 data L2 requests (ignoring reads that wait for other requests)
+cpu_0_data_L2_count 7258
+
+#Number of CPU 0 data requests that close a DRAM row
+cpu_0_data_dram_close_count 483
+
+#Number of CPU 0 data requests that open a DRAM row
+cpu_0_data_dram_open_count 515
+
+#Number of CPU 0 data requests that access a DRAM row
+cpu_0_data_dram_access_count 5198
+
+#Number of CPU 0 data requests that close a PCM row
+cpu_0_data_pcm_close_count 0
+
+#Number of CPU 0 data requests that open a PCM row
+cpu_0_data_pcm_open_count 0
+
+#Number of CPU 0 data requests that access a PCM row
+cpu_0_data_pcm_access_count 0
+
