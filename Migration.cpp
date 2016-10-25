@@ -1507,6 +1507,7 @@ void OldTwoLRUMigrationPolicy::monitor(int pid, addrint addr){
 		AccessEntry temp = *it->second.accessIt;
 		dramQueue.erase(it->second.accessIt);
 		dramQueue.emplace(dramQueue.begin(),temp);
+		currentDramIt=dramQueue.begin();
 	} else if (it->second.type == PCM_LIST){
 		it->second.accessIt->hitCount++;
 		AccessEntry temp = AccessEntry((*it->second.accessIt).pid,(*it->second.accessIt).addr,(*it->second.accessIt).hitCount);
