@@ -98,7 +98,7 @@ void Engine::run(){
 		assert(timestamp == event.getTimestamp());
 	//	cout<<timestamp<<endl;
 
-		numEvents++;
+ 		numEvents++;
 		event.execute();
 
 		empty = currentEventsEmpty();

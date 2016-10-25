@@ -1485,11 +1485,8 @@ PageType OldTwoLRUMigrationPolicy::allocate(int pid, addrint addr, bool read, bo
 		accessIt = pcmQueue.emplace(pcmQueue.end(), AccessEntry(pid, addr, 0));
 		list = PCM_LIST;
 	}
-	if(addr == 0)
-	{
-		int a = 0;
-		a++;
-	}
+	if(addr==34225147537)
+		cout<<"insert"<<endl;
 	bool ins = pages[index].emplace(addr, PageEntry(list, accessIt)).second;
 	myassert(ins);
 
@@ -1497,8 +1494,10 @@ PageType OldTwoLRUMigrationPolicy::allocate(int pid, addrint addr, bool read, bo
 }
 
 void OldTwoLRUMigrationPolicy::monitor(int pid, addrint addr){
-//	cout<<"two lru MONITOR ADDR: "<<addr<<endl;
+	cout<<"two lru MONITOR ADDR: "<<addr<<endl;
 	int index = numPids == 1 ? 0 : pid;
+	if(addr==34225147537)
+		cout<<"addr?!"<<endl;
 	PageMap::iterator it = pages[index].find(addr);
 //	cout<<addr<<"MONITOR CALL IN TWOLRU"<<endl;
 	myassert(it != pages[index].end());
@@ -1507,19 +1506,12 @@ void OldTwoLRUMigrationPolicy::monitor(int pid, addrint addr){
 		it->second.accessIt->hitCount++;
 		AccessEntry temp = *it->second.accessIt;
 		dramQueue.erase(it->second.accessIt);
-		dramQueue.push_front(temp);
+		dramQueue.emplace(dramQueue.begin(),temp);
 	} else if (it->second.type == PCM_LIST){
 		it->second.accessIt->hitCount++;
-		if(addr == 34225147537)
-		{
-			addrint a = it->first;
-			cout << a;
-		}
-		AccessEntry temp = *it->second.accessIt;
-		cout<<"before, Address: "<<addr<<endl;
+		AccessEntry temp = AccessEntry((*it->second.accessIt).pid,(*it->second.accessIt).addr,(*it->second.accessIt).hitCount);
 		pcmQueue.erase(it->second.accessIt);
-		cout<<"after, PID: "<<pid<<endl;
-		pcmQueue.push_front(temp);
+		pcmQueue.emplace(pcmQueue.begin(),temp);
 	} else {
 		myassert(false);
 	}
@@ -1562,7 +1554,7 @@ bool OldTwoLRUMigrationPolicy::selectPage(int *pid, addrint *addr){
 		myassert(it != pages[currentDramIt->pid].end());
 		myassert(it->second.accessIt == currentDramIt);
 		it->second.type = PCM_LIST;
-		it->second.accessIt = pcmQueue.emplace(pcmQueue.end(), AccessEntry(0, it->first, 0));
+		it->second.accessIt = pcmQueue.emplace(pcmQueue.begin(), AccessEntry(0, it->first, 0));
 		//cout << "6" <<flush<<endl;
 		currentDramIt = dramQueue.erase(currentDramIt);
 		//cout << "7" <<flush<<endl;
@@ -1609,10 +1601,10 @@ bool OldTwoLRUMigrationPolicy::selectPage(int *pid, addrint *addr){
 			it->second.type = DRAM_LIST;
 			it->second.accessIt = dramQueue.emplace(currentDramIt, AccessEntry(*pid, *addr, 0));
 			dramPagesLeft--;
-			cout<<*addr<<" selpage"<<endl;
+		//	cout<<*addr<<" selpage"<<endl;
 			return true;
 		} else {
-			cout<<*addr<<" selpage2"<<endl;
+		//	cout<<*addr<<" selpage2"<<endl;
 			return false;
 		}
 	}
