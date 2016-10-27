@@ -1506,7 +1506,7 @@ void OldHybridMemoryManager::allocate(const vector<string>& filenames){
 void OldHybridMemoryManager::monitorPhysicalAccess(addrint addr, bool read, bool instr){
 	addrint page = getIndex(addr);
 	auto it = physicalPages.find(page);
-	cout<<"IT VIRT ADDR:  "<<(it->second.virtualPage)<<endl;
+	//cout<<"IT VIRT ADDR:  "<<(it->second.virtualPage)<<endl;
 	if (it != physicalPages.end()){
 		//per page statistics
 		auto it2 = pages[it->second.pid].find(it->second.virtualPage);

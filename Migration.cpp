@@ -1478,6 +1478,7 @@ PageType OldTwoLRUMigrationPolicy::allocate(int pid, addrint addr, bool read, bo
 		currentDramIt = accessIt;
 		++currentDramIt;
 		if (currentDramIt == dramQueue.end()){
+			cout<<"WHY WOULD ONE COME HERE??"<<endl;
 			currentDramIt = dramQueue.begin();
 		}
 		list = DRAM_LIST;
@@ -1494,7 +1495,7 @@ PageType OldTwoLRUMigrationPolicy::allocate(int pid, addrint addr, bool read, bo
 }
 
 void OldTwoLRUMigrationPolicy::monitor(int pid, addrint addr){
-	cout<<"two lru MONITOR ADDR: "<<addr<<endl;
+	//cout<<"two lru MONITOR ADDR: "<<addr<<endl;
 	int index = numPids == 1 ? 0 : pid;
 	if(addr==34225147537)
 		cout<<"addr?!"<<endl;
@@ -1507,7 +1508,7 @@ void OldTwoLRUMigrationPolicy::monitor(int pid, addrint addr){
 		AccessEntry temp = *it->second.accessIt;
 		dramQueue.erase(it->second.accessIt);
 		dramQueue.emplace(dramQueue.begin(),temp);
-		currentDramIt=dramQueue.begin();
+		//currentDramIt=dramQueue.begin();
 	} else if (it->second.type == PCM_LIST){
 		it->second.accessIt->hitCount++;
 		AccessEntry temp = AccessEntry((*it->second.accessIt).pid,(*it->second.accessIt).addr,(*it->second.accessIt).hitCount);
@@ -1522,7 +1523,7 @@ bool OldTwoLRUMigrationPolicy::selectPage(int *pid, addrint *addr){
 
 //	if(*addr == 34225228180)
 //		cout<<"TWOLRU SELECTPAGE ADDR: "<<*addr<<endl;
-	AccessQueue::iterator dramIt = dramQueue.begin();
+//	AccessQueue::iterator dramIt = dramQueue.begin();
 	//cout << "2" <<flush<<endl;
 //	while (dramIt != dramQueue.end()){
 //				cout<<dramIt->hitCount<<endl;
@@ -1537,6 +1538,10 @@ bool OldTwoLRUMigrationPolicy::selectPage(int *pid, addrint *addr){
 //			if(dramIt->hitCount<100)
 
 //			{
+		if(dramQueue.size()<1){
+			cout<<"WHAT?!"<<endl;
+			myassert(false);
+		}
 
 				dramIt--;
 
@@ -1559,9 +1564,10 @@ bool OldTwoLRUMigrationPolicy::selectPage(int *pid, addrint *addr){
 		//cout << "6" <<flush<<endl;
 		currentDramIt = dramQueue.erase(currentDramIt);
 		//cout << "7" <<flush<<endl;
-		if (currentDramIt == dramQueue.end()){
-			currentDramIt = dramQueue.begin();
-		}
+		//if (currentDramIt == dramQueue.end()){
+		//	cout<<"HOW CAN I EXACTLY REACH HERE?! BUG POSSIBILITY!!"<<endl;
+		//	currentDramIt = dramQueue.begin();
+		//}
 		//cout << "8" <<flush<<endl;
 		dramPagesLeft++;
 //		cout<<*addr<<" selpage"<<endl;
@@ -1580,7 +1586,7 @@ bool OldTwoLRUMigrationPolicy::selectPage(int *pid, addrint *addr){
 			*addr = pcmIt->addr;
 			//cout << "9" <<flush<<endl;
 			pcmIt = pcmQueue.erase(pcmIt);
-
+			
 		}
 	//	else
 		//	pcmIt++;
@@ -1600,8 +1606,10 @@ bool OldTwoLRUMigrationPolicy::selectPage(int *pid, addrint *addr){
 			myassert(it != pages[*pid].end());
 			//cout<<"after ass: "<< *pid<<endl;
 			it->second.type = DRAM_LIST;
+		//	currentDramIt=dramQueue.end();
 			it->second.accessIt = dramQueue.emplace(currentDramIt, AccessEntry(*pid, *addr, 0));
 			dramPagesLeft--;
+			
 		//	cout<<*addr<<" selpage"<<endl;
 			return true;
 		} else {
