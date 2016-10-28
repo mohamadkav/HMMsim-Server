@@ -32,11 +32,13 @@ CUSTOM_LINK += -Wl,-rpath -Wl,$(CXXHOME)/lib
 #CUSTOM_LINK += -static-libstdc++ -static-libgcc
 
 # Where PIN is installed
-PIN_ROOT ?= /home/coston/pinplay-drdebug-2.2-pldi2015-pin-2.14-71313-gcc.4.4.7-linux
+PIN_ROOT ?= /cygdrive/d/Software/pinplay-drdebug-2.2-pldi2015-pin-2.14-71313-gcc.4.4.7-linux
+#PIN_ROOT ?= /cygdrive/c/Users/Salkhordeh/Desktop/pin-3.0-76991-gcc-linux/pin-3.0-76991-gcc-linux
+#PIN_ROOT ?= /cygdrive/c/Users/Salkhordeh/Desktop/pin-3.0-76991-msvc-windows/pin-3.0-76991-msvc-windows
 #PIN_ROOT ?= /afs/cs.pitt.edu/usr0/sab104/bin/pin
 
 # Actual compiler to use
-CXX = $(CXXHOME)/bin/g++-4.9
+CXX = $(CXXHOME)/bin/g++
 
 ##############################################################
 #
@@ -67,9 +69,9 @@ include $(TOOLS_ROOT)/Config/makefile.default.rules
 # Flags
 CUSTOM_FLAGS += -MMD -DDEBUG=$(DEBUG_OUTPUT) -D_FILE_OFFSET_BITS=64 -std=c++11 -Wall -Werror -iquoteinclude -g -O0
 #CUSTOM_FLAGS += -D_GLIBCXX_DEBUG
-APP_CXXFLAGS += $(CUSTOM_FLAGS)
+APP_CXXFLAGS += $(CUSTOM_FLAGS) 
 APP_LIBS += -lbz2 -lz $(CUSTOM_LINK)
-TOOL_CXXFLAGS  += $(CUSTOM_FLAGS) -I$(PINPLAY_INCLUDE_HOME)
+TOOL_CXXFLAGS  += $(CUSTOM_FLAGS) -I$(PINPLAY_INCLUDE_HOME) 
 TOOL_LPATHS += -L$(PINPLAY_LIB_HOME)
 TOOL_LIBS += -lbz2 -lz $(CUSTOM_LINK)
 
