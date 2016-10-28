@@ -1463,7 +1463,7 @@ OldTwoLRUMigrationPolicy::OldTwoLRUMigrationPolicy(
 		IAllocator *allocatorArg,
 		unsigned numPidsArg) : OldBaseMigrationPolicy(nameArg, engineArg, debugArg, dramPagesArg, allocPolicyArg, allocatorArg, numPidsArg){
 
-	currentDramIt = dramQueue.begin();
+	
 	pages = new PageMap[numPids];
 }
 
@@ -1474,13 +1474,7 @@ PageType OldTwoLRUMigrationPolicy::allocate(int pid, addrint addr, bool read, bo
 	AccessQueue::iterator accessIt;
 	ListType list;
 	if (ret == DRAM){
-		accessIt = dramQueue.emplace(currentDramIt, AccessEntry(pid, addr));
-		currentDramIt = accessIt;
-		++currentDramIt;
-		if (currentDramIt == dramQueue.end()){
-			cout<<"WHY WOULD ONE COME HERE??"<<endl;
-			currentDramIt = dramQueue.begin();
-		}
+		accessIt = dramQueue.emplace(dramQueue.begin(), AccessEntry(pid, addr, 0));
 		list = DRAM_LIST;
 	} else {
 		accessIt = pcmQueue.emplace(pcmQueue.end(), AccessEntry(pid, addr, 0));
@@ -1545,7 +1539,7 @@ bool OldTwoLRUMigrationPolicy::selectPage(int *pid, addrint *addr){
 
 				dramIt--;
 
-				currentDramIt = dramIt;
+				
 //				break;
 //			}
 //			else
@@ -1553,16 +1547,16 @@ bool OldTwoLRUMigrationPolicy::selectPage(int *pid, addrint *addr){
 		//}
 		//migrate to PCM (demotion)
 			//	cout << "4" <<flush<<endl;
-		*pid = currentDramIt->pid;
-		*addr = currentDramIt->addr;
-		PageMap::iterator it = pages[currentDramIt->pid].find(currentDramIt->addr);
+		*pid = dramIt->pid;
+		*addr = dramIt->addr;
+		PageMap::iterator it = pages[dramIt->pid].find(dramIt->addr);
 		//cout << "5" <<flush<<endl;
 		myassert(it != pages[currentDramIt->pid].end());
 		myassert(it->second.accessIt == currentDramIt);
 		it->second.type = PCM_LIST;
 		it->second.accessIt = pcmQueue.emplace(pcmQueue.begin(), AccessEntry(0, it->first, 0));
 		//cout << "6" <<flush<<endl;
-		currentDramIt = dramQueue.erase(currentDramIt);
+		dramQueue.erase(dramIt);
 		//cout << "7" <<flush<<endl;
 		//if (currentDramIt == dramQueue.end()){
 		//	cout<<"HOW CAN I EXACTLY REACH HERE?! BUG POSSIBILITY!!"<<endl;
@@ -1607,7 +1601,7 @@ bool OldTwoLRUMigrationPolicy::selectPage(int *pid, addrint *addr){
 			//cout<<"after ass: "<< *pid<<endl;
 			it->second.type = DRAM_LIST;
 		//	currentDramIt=dramQueue.end();
-			it->second.accessIt = dramQueue.emplace(currentDramIt, AccessEntry(*pid, *addr, 0));
+			it->second.accessIt = dramQueue.emplace(dramQueue.begin(), AccessEntry(*pid, *addr, 0));
 			dramPagesLeft--;
 			
 		//	cout<<*addr<<" selpage"<<endl;

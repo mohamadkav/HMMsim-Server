@@ -546,7 +546,7 @@ private:
 	typedef list<AccessEntry> AccessQueue;
 
 	AccessQueue dramQueue;
-	AccessQueue::iterator currentDramIt;
+	//AccessQueue::iterator currentDramIt;
 
 	AccessQueue pcmQueue;
 
