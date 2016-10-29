@@ -1483,7 +1483,7 @@ PageType OldTwoLRUMigrationPolicy::allocate(int pid, addrint addr, bool read, bo
 }
 
 void OldTwoLRUMigrationPolicy::monitor(int pid, addrint addr) {
-    cout<<"two lru MONITOR ADDR: "<<addr<<endl;
+//    cout<<"two lru MONITOR ADDR: "<<addr<<endl;
     int index = numPids == 1 ? 0 : pid;
     if (addr == 34128307266)
         cout << "addr?!" << endl;
@@ -1568,7 +1568,7 @@ bool OldTwoLRUMigrationPolicy::selectPage(int *pid, addrint *addr) {
         AccessQueue::iterator pcmIt = pcmQueue.begin();
         //		while (pcmIt != pcmQueue.end()){
 
-        if (pcmIt->hitCount > 100) {
+        if (pcmIt->hitCount > 1) {
             found = true;
             *pid = pcmIt->pid;
             *addr = pcmIt->addr;
@@ -1595,7 +1595,7 @@ bool OldTwoLRUMigrationPolicy::selectPage(int *pid, addrint *addr) {
             //cout<<"after ass: "<< *pid<<endl;
             it->second.type = DRAM_LIST;
             //	currentDramIt=dramQueue.end();
-            it->second.accessIt = dramQueue.emplace(dramQueue.end(), AccessEntry(*pid, *addr, 0));
+            it->second.accessIt = dramQueue.emplace(dramQueue.begin(), AccessEntry(*pid, *addr, 0));
             dramPagesLeft--;
 
             //	cout<<*addr<<" selpage"<<endl;
