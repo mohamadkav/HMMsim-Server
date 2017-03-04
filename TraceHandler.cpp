@@ -185,8 +185,50 @@ bool CompressedTraceReader::TraceMerger::readEntry(uint64 *timestamp, addrint *a
 		return false;
 	}
 	*timestamp = timestampEntries[currentEntry];
-	*addr = addressEntries[currentEntry];
+//	if(testFileRead==0){
+//		*addr = 140606421075632;
+//	}
+//	else if(testFileRead==1){
+//		*addr = 140606423309184;
+//	}
+//	else if(testFileRead==2){
+//		*addr = 140724404281416;
+//	}
+//	else if(testFileRead==3){
+//		*addr = 140724404281464;
+//	}
+//	else if(testFileRead==4){
+//		*addr = 140606421075635;
+//	}
+//	else if(testFileRead==5){
+//		*addr = 140724404281456;
+//	}
+//	else if(testFileRead==6){
+//		*addr = 140606421090321;
+//	}
+//	else if(testFileRead==7){
+//		*addr = 140724404281448;
+//	}
+//	else if(testFileRead==8){
+//		*addr = 140606421090324;
+//	}
+//	else if(testFileRead==9){
+//		*addr = 140606421090326;
+//	}
+//	else if(testFileRead==10){
+//		*addr = 140724404281440;
+//	}
+//	else if(testFileRead==11){
+//		*addr =140737336764280;
+//	}
+//	else if (testFileRead<1500){
+//		*addr = 140724404281440;
+//	}
+//	else
+//		return false;
+	*addr = addressEntries[currentEntry];// REMOVED THIS LINE //TODO: UN-REMOVE THE LINE
 	*size = sizeEntries[currentEntry];
+//	cout<<*timestamp<<"  "<<*addr<<"   "<<*size<<endl;
 	currentEntry++;
 	return true;
 }

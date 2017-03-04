@@ -1229,7 +1229,7 @@ void OldHybridMemory::process(const Event *event){
 
 bool OldHybridMemory::access(MemoryRequest *request, IMemoryCallback *caller){
 	uint64 timestamp = engine->getTimestamp();
-	debug("(%p, %lu, %u, %s, %s, %d, %s)", request, request->addr, request->size, request->read?"read":"write", request->instr?"instr":"data", request->priority, caller->getName());
+	//printf("\n(%p, %lu, %u, %s, %s, %d, %s)", request, request->addr, request->size, request->read?"read":"write", request->instr?"instr":"data", request->priority, caller->getName());
 /*	static int u=0;
 	if(u%100==0)
 		cout<<"ACCCCCCCSES"<<u<<endl;

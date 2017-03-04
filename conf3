@@ -15,7 +15,9 @@
 -dram_fractions 0.000009
 -migration_policy two_lru
 #-migration_policy multi_queue
--L2_size 2
+-L2_size 8
+#-instr_L1_size 2
+#-data_L1_size 2
 #-debug_hybrid_memory 1
 #-fixed_dram_migration_cost true
 #-fixed_pcm_migration_cost true

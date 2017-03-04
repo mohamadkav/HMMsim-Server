@@ -1485,8 +1485,8 @@ PageType OldTwoLRUMigrationPolicy::allocate(int pid, addrint addr, bool read, bo
 void OldTwoLRUMigrationPolicy::monitor(int pid, addrint addr) {
 //    cout<<"two lru MONITOR ADDR: "<<addr<<endl;
     int index = numPids == 1 ? 0 : pid;
-    if (addr == 34128307266)
-        cout << "addr?!" << endl;
+//    if (addr == 34128307266)
+  //      cout << "addr?!" << endl;
     PageMap::iterator it = pages[index].find(addr);
     //	cout<<addr<<"MONITOR CALL IN TWOLRU"<<endl;
     myassert(it != pages[index].end());
@@ -1496,7 +1496,7 @@ void OldTwoLRUMigrationPolicy::monitor(int pid, addrint addr) {
         AccessEntry temp = *it->second.accessIt;
         dramQueue.erase(it->second.accessIt);
         it->second.accessIt = dramQueue.emplace(dramQueue.begin(), temp);
-        cout << "dummy" <<endl;
+//        cout << "dummy" <<endl;
         //currentDramIt=dramQueue.begin();
     } else if (it->second.type == PCM_LIST) {
         it->second.accessIt->hitCount++;
@@ -1567,8 +1567,8 @@ bool OldTwoLRUMigrationPolicy::selectPage(int *pid, addrint *addr) {
         bool found = false;
         AccessQueue::iterator pcmIt = pcmQueue.begin();
         //		while (pcmIt != pcmQueue.end()){
-
-        if (pcmIt->hitCount > 1) {
+	myassert(pcmIt != pcmQueue.end());
+        if (pcmIt->hitCount >1000) {
             found = true;
             *pid = pcmIt->pid;
             *addr = pcmIt->addr;

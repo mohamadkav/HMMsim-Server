@@ -1531,6 +1531,13 @@ void OldHybridMemoryManager::monitorPhysicalAccess(addrint addr, bool read, bool
 
 	//monitoring
 	if (monitoringLocation == AFTER_CACHES){
+		string r = read?"R":"W";
+		string ins = instr?"I":"D";
+		cout << addr << "\t";
+		cout << 64 << "\t";
+		cout << r << "\t";
+		cout << ins << "\t";
+		cout << endl;
 		if ((state == FLUSH_BEFORE || state == COPY || state == FLUSH_AFTER) && page == currentMigration.destPhysicalPage){
 			static int q=0;
 			cout<<"FLUSH__MEMANAGER "<<q;
