@@ -3,7 +3,7 @@
  *
  * See the file LICENSE.txt for copying permission.
  */
-
+//#define _GLIBCXX_USE_CXX11_ABI 0
 #include "TraceHandler.H"
 #include "Types.H"
 
@@ -18,7 +18,7 @@
 #include <string>
 #include <unordered_map>
 #include <unordered_set>
-
+#include <cmath>
 #include <cassert>
 
 

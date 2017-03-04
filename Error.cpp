@@ -9,6 +9,7 @@
 #include <cstdio>
 #include <cstdlib>
 #include <cerrno>
+#include <sys/cdefs.h>
 
 
 char msg_buffer[MAX_MSG_SIZE];
